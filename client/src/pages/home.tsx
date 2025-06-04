@@ -1,5 +1,6 @@
 import Navigation from "@/components/navigation";
 import Hero from "@/components/hero";
+import VideoSection from "@/components/video-section";
 import About from "@/components/about";
 import Services from "@/components/services";
 import Team from "@/components/team";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
+        <VideoSection />
         <About />
         <Services />
         <Team />

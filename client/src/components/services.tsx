@@ -48,11 +48,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Services</h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Comprehensive technology solutions tailored to meet your business
             objectives and drive sustainable growth.
           </p>
@@ -63,20 +63,20 @@ export default function Services() {
             const IconComponent = service.icon;
             return (
               <Link key={index} href={`/services?service=${service.key}`}>
-                <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 cursor-pointer">
-                  <div className="text-brand-600 mb-4">
+                <div className="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+                  <div className="text-brand-600 dark:text-brand-400 mb-4">
                     <IconComponent className="h-12 w-12" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-4">{service.description}</p>
-                  <ul className="text-sm text-gray-500 space-y-1 mb-4">
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">{service.description}</p>
+                  <ul className="text-sm text-gray-500 dark:text-gray-400 space-y-1 mb-4">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex}>• {feature}</li>
                     ))}
                   </ul>
-                  <span className="text-brand-600 text-sm font-medium hover:text-brand-700">
+                  <span className="text-brand-600 dark:text-brand-400 text-sm font-medium hover:text-brand-700 dark:hover:text-brand-300">
                     Learn More →
                   </span>
                 </div>

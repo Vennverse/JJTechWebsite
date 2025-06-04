@@ -39,11 +39,11 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <section id="team" className="py-20 bg-white">
+    <section id="team" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Meet Our Team</h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Our diverse team of experts brings together years of experience and
             cutting-edge expertise to deliver exceptional results.
           </p>
@@ -59,11 +59,11 @@ export default function Team() {
                   className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-1">
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-1">
                 {member.name}
               </h3>
-              <p className="text-brand-600 font-medium mb-3">{member.position}</p>
-              <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
+              <p className="text-brand-600 dark:text-brand-400 font-medium mb-3">{member.position}</p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">{member.bio}</p>
             </div>
           ))}
         </div>

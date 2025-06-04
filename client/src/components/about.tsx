@@ -2,11 +2,11 @@ import { Lightbulb, Handshake } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About JJ-Tech</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">About JJ-Tech</h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Founded with a vision to bridge the gap between business needs and
             technological innovation, we've been helping companies transform their
             operations for over a decade.
@@ -15,14 +15,14 @@ export default function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-gray-900">Our Story</h3>
-            <p className="text-gray-600 leading-relaxed">
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">Our Story</h3>
+            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
               Since our inception, JJ-Tech has been at the forefront of
               technological innovation. We understand that every business is
               unique, which is why we take a personalized approach to every
               project we undertake.
             </p>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
               Our team of experienced professionals combines deep technical
               expertise with business acumen to deliver solutions that not only
               meet your current needs but also position your organization for
@@ -30,15 +30,15 @@ export default function About() {
             </p>
 
             <div className="grid grid-cols-2 gap-6 pt-6">
-              <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <Lightbulb className="h-12 w-12 text-brand-600 mx-auto mb-3" />
-                <h4 className="font-semibold text-gray-900 mb-2">Innovation</h4>
-                <p className="text-sm text-gray-600">Cutting-edge solutions</p>
+              <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+                <Lightbulb className="h-12 w-12 text-brand-600 dark:text-brand-400 mx-auto mb-3" />
+                <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Innovation</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Cutting-edge solutions</p>
               </div>
-              <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <Handshake className="h-12 w-12 text-brand-600 mx-auto mb-3" />
-                <h4 className="font-semibold text-gray-900 mb-2">Partnership</h4>
-                <p className="text-sm text-gray-600">Long-term relationships</p>
+              <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg">
+                <Handshake className="h-12 w-12 text-brand-600 dark:text-brand-400 mx-auto mb-3" />
+                <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Partnership</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Long-term relationships</p>
               </div>
             </div>
           </div>
