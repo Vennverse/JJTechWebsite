@@ -1,41 +1,48 @@
 import { Code, Cloud, TrendingUp, Shield, Users, Headphones } from "lucide-react";
+import { Link } from "wouter";
 
 const services = [
   {
     icon: Code,
     title: "Custom Software Development",
     description: "Bespoke software solutions designed to address your unique business challenges and opportunities.",
-    features: ["Web Applications", "Mobile Apps", "Enterprise Solutions"]
+    features: ["Web Applications", "Mobile Apps", "Enterprise Solutions"],
+    key: "custom-development"
   },
   {
     icon: Cloud,
     title: "Cloud Solutions",
     description: "Scalable cloud infrastructure and migration services to modernize your IT operations.",
-    features: ["Cloud Migration", "Infrastructure Management", "DevOps Solutions"]
+    features: ["Cloud Migration", "Infrastructure Management", "DevOps Solutions"],
+    key: "cloud-solutions"
   },
   {
     icon: TrendingUp,
     title: "Business Intelligence",
     description: "Transform your data into actionable insights with advanced analytics and reporting solutions.",
-    features: ["Data Analytics", "Custom Dashboards", "Performance Metrics"]
+    features: ["Data Analytics", "Custom Dashboards", "Performance Metrics"],
+    key: "business-intelligence"
   },
   {
     icon: Shield,
     title: "Cybersecurity",
     description: "Comprehensive security solutions to protect your digital assets and maintain compliance.",
-    features: ["Security Audits", "Threat Assessment", "Compliance Solutions"]
+    features: ["Security Audits", "Threat Assessment", "Compliance Solutions"],
+    key: "cybersecurity"
   },
   {
     icon: Users,
     title: "IT Consulting",
     description: "Strategic technology guidance to align your IT infrastructure with business objectives.",
-    features: ["Technology Strategy", "System Integration", "Process Optimization"]
+    features: ["Technology Strategy", "System Integration", "Process Optimization"],
+    key: "it-consulting"
   },
   {
     icon: Headphones,
     title: "Support & Maintenance",
     description: "Ongoing support and maintenance services to ensure optimal system performance.",
-    features: ["24/7 Support", "System Monitoring", "Regular Updates"]
+    features: ["24/7 Support", "System Monitoring", "Regular Updates"],
+    key: "support"
   }
 ];
 
@@ -55,23 +62,25 @@ export default function Services() {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <div
-                key={index}
-                className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
-              >
-                <div className="text-brand-600 mb-4">
-                  <IconComponent className="h-12 w-12" />
+              <Link key={index} href={`/services?service=${service.key}`}>
+                <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 cursor-pointer">
+                  <div className="text-brand-600 mb-4">
+                    <IconComponent className="h-12 w-12" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 mb-4">{service.description}</p>
+                  <ul className="text-sm text-gray-500 space-y-1 mb-4">
+                    {service.features.map((feature, featureIndex) => (
+                      <li key={featureIndex}>• {feature}</li>
+                    ))}
+                  </ul>
+                  <span className="text-brand-600 text-sm font-medium hover:text-brand-700">
+                    Learn More →
+                  </span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <ul className="text-sm text-gray-500 space-y-1">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex}>• {feature}</li>
-                  ))}
-                </ul>
-              </div>
+              </Link>
             );
           })}
         </div>
