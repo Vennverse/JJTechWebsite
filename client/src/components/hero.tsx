@@ -9,16 +9,16 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative brand-gradient pt-16">
+    <section id="home" className="relative brand-gradient dark:bg-gradient-to-br dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
                 Transforming Business Through{" "}
-                <span className="text-brand-600">Technology</span>
+                <span className="text-brand-600 dark:text-brand-400">Technology</span>
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">
+              <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
                 We deliver cutting-edge technology solutions that drive growth,
                 efficiency, and innovation for modern businesses.
               </p>
@@ -42,16 +42,16 @@ export default function Hero() {
             </div>
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-brand-600">500+</div>
-                <div className="text-sm text-gray-600">Projects Delivered</div>
+                <div className="text-3xl font-bold text-brand-600 dark:text-brand-400">500+</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Projects Delivered</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-brand-600">200+</div>
-                <div className="text-sm text-gray-600">Happy Clients</div>
+                <div className="text-3xl font-bold text-brand-600 dark:text-brand-400">200+</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Happy Clients</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-brand-600">15+</div>
-                <div className="text-sm text-gray-600">Years Experience</div>
+                <div className="text-3xl font-bold text-brand-600 dark:text-brand-400">15+</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
               </div>
             </div>
           </div>
