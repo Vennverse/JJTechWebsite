@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
 import { Link } from "wouter";
+import { JJTechLogo } from "./jj-tech-logo";
 
 export default function JJTechNavigation() {
   return (
@@ -7,11 +8,8 @@ export default function JJTechNavigation() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between h-12 px-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-6 h-6 bg-orange-500 rounded flex items-center justify-center">
-              <span className="text-black text-xs font-bold">JJ</span>
-            </div>
-            <span className="font-bold text-sm">JJ-TECH</span>
+          <Link href="/" className="flex items-center">
+            <JJTechLogo size="sm" className="text-white" />
           </Link>
 
           {/* Navigation Menu */}

@@ -14,10 +14,10 @@ export default function BusinessConsulting() {
           </div>
         </section>
 
-        {/* Yellow Banner */}
-        <div className="bg-yellow-400 py-6">
+        {/* Sky Blue Banner */}
+        <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-lg font-medium">
+            <h2 className="text-white text-lg font-medium">
               Franchise Brokerage-Consulting - We help fulfill your dream of Entrepreneurship
             </h2>
           </div>

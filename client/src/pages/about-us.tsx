@@ -15,9 +15,9 @@ export default function AboutUs() {
         </section>
 
         {/* Who We Are Section */}
-        <div className="bg-yellow-400 py-6">
+        <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-lg font-medium">
+            <h2 className="text-white text-lg font-medium">
               Who We Are
             </h2>
           </div>
@@ -35,9 +35,9 @@ export default function AboutUs() {
         </div>
 
         {/* Our Vision Section */}
-        <div className="bg-yellow-400 py-6">
+        <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-lg font-medium">
+            <h2 className="text-white text-lg font-medium">
               Our Vision
             </h2>
           </div>
@@ -52,9 +52,9 @@ export default function AboutUs() {
         </div>
 
         {/* Our Mission Section */}
-        <div className="bg-yellow-400 py-6">
+        <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-lg font-medium">
+            <h2 className="text-white text-lg font-medium">
               Our Mission
             </h2>
           </div>

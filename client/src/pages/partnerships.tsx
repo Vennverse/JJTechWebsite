@@ -11,9 +11,9 @@ export default function Partnerships() {
             <h1 className="text-4xl font-normal text-gray-800 mb-4">
               Our Partnerships
             </h1>
-            {/* Yellow underline */}
+            {/* Sky Blue underline */}
             <div className="flex justify-center mt-4">
-              <div className="w-32 h-1 bg-yellow-400"></div>
+              <div className="w-32 h-1 bg-sky-600"></div>
             </div>
           </div>
         </section>

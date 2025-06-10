@@ -76,8 +76,8 @@ export default function PMOServices() {
                   <div><strong>ROI</strong></div>
                 </div>
                 
-                <div className="text-center mt-6 pt-4 border-t border-yellow-600">
-                  <div className="text-black font-bold">Contact us at 214.699.1761 or email us at jj.tech.us.corp@gmail.com</div>
+                <div className="text-center mt-6 pt-4 border-t border-sky-300">
+                  <div className="text-white font-bold">Contact us at 214.699.1761 or email us at jj.tech.us.corp@gmail.com</div>
                 </div>
               </div>
             </div>
