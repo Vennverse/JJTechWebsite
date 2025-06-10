@@ -11,7 +11,7 @@ import ITTraining from "@/pages/it-training";
 import PMOServices from "@/pages/pmo-services";
 import AboutUs from "@/pages/about-us";
 import Contact from "@/pages/contact";
-import Partnerships from "@/pages/partnerships";
+
 
 import NotFound from "@/pages/not-found";
 
@@ -25,7 +25,7 @@ function Router() {
       <Route path="/pmo-services" component={PMOServices} />
       <Route path="/about-us" component={AboutUs} />
       <Route path="/contact" component={Contact} />
-      <Route path="/partnerships" component={Partnerships} />
+
 
       <Route component={NotFound} />
     </Switch>
