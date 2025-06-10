@@ -13,7 +13,7 @@ export default function AboutUs() {
           </div>
         </section>
 
-        <div className="bg-teal-600 py-4">
+        <div className="bg-sky-600 py-4">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <p className="text-white text-lg">
               JJ-Tech is your trusted technology partner, delivering innovative solutions since our founding.
@@ -37,11 +37,11 @@ export default function AboutUs() {
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-3xl font-bold text-teal-600">500+</div>
+                  <div className="text-3xl font-bold text-sky-600">500+</div>
                   <div className="text-sm text-gray-600">Projects Completed</div>
                 </div>
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-3xl font-bold text-teal-600">15+</div>
+                  <div className="text-3xl font-bold text-sky-600">15+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </div>
               </div>
@@ -57,19 +57,19 @@ export default function AboutUs() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Core Values</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-teal-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <span><strong>Innovation:</strong> Continuously exploring new technologies and methodologies</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-teal-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <span><strong>Excellence:</strong> Delivering the highest quality solutions and services</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-teal-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <span><strong>Partnership:</strong> Building long-term relationships with our clients</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-teal-600 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
                   <span><strong>Integrity:</strong> Maintaining transparency and trust in all our interactions</span>
                 </li>
               </ul>

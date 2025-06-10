@@ -14,8 +14,8 @@ export default function ITServices() {
           </div>
         </section>
 
-        {/* Teal Blue Banner */}
-        <div className="bg-teal-600 py-4">
+        {/* Sky Blue Banner */}
+        <div className="bg-sky-600 py-4">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <p className="text-white text-lg">
               Comprehensive IT solutions designed to drive your business forward with cutting-edge technology.

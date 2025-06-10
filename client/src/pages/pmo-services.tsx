@@ -13,7 +13,7 @@ export default function PMOServices() {
           </div>
         </section>
 
-        <div className="bg-teal-600 py-4">
+        <div className="bg-sky-600 py-4">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <p className="text-white text-lg">
               Project Management Office services to ensure successful project delivery and organizational efficiency.

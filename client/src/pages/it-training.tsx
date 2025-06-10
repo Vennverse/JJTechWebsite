@@ -14,8 +14,8 @@ export default function ITTraining() {
           </div>
         </section>
 
-        {/* Teal Blue Banner */}
-        <div className="bg-teal-600 py-4">
+        {/* Sky Blue Banner */}
+        <div className="bg-sky-600 py-4">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <p className="text-white text-lg">
               Professional IT training programs to enhance your team's technical skills and capabilities.
@@ -50,7 +50,7 @@ export default function ITTraining() {
               <h2 className="text-2xl font-semibold text-gray-800 mb-6">Training Approach</h2>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">1</div>
+                  <div className="bg-sky-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">1</div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Assessment</h4>
                     <p className="text-gray-600 text-sm">Evaluate current skill levels and identify training needs.</p>
@@ -58,7 +58,7 @@ export default function ITTraining() {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">2</div>
+                  <div className="bg-sky-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">2</div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Customization</h4>
                     <p className="text-gray-600 text-sm">Develop tailored training programs for your specific requirements.</p>
@@ -66,7 +66,7 @@ export default function ITTraining() {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">3</div>
+                  <div className="bg-sky-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">3</div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Delivery</h4>
                     <p className="text-gray-600 text-sm">Hands-on training sessions with practical exercises and real-world scenarios.</p>
@@ -74,7 +74,7 @@ export default function ITTraining() {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">4</div>
+                  <div className="bg-sky-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">4</div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Certification</h4>
                     <p className="text-gray-600 text-sm">Industry-recognized certifications and ongoing support.</p>

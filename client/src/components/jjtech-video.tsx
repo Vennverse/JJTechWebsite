@@ -1,8 +1,8 @@
 export default function JJTechVideo() {
   return (
     <div className="bg-white">
-      {/* Teal Blue Banner */}
-      <div className="bg-teal-600 py-4">
+      {/* Sky Blue Banner */}
+      <div className="bg-sky-600 py-4">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-white text-lg">
             IT Services - We provide the best in class service for you. We are your trusted partners.
