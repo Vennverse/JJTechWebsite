@@ -18,15 +18,12 @@ export function JJTechLogo({ className = "", size = "md" }: JJTechLogoProps) {
 
   return (
     <div className={`flex items-center space-x-3 ${className}`}>
-      {/* Logo Icon */}
-      <div className={`${sizeClasses[size]} bg-gradient-to-br from-sky-500 to-sky-700 rounded-lg flex items-center justify-center shadow-lg`}>
-        <div className="text-white font-bold">
-          <svg viewBox="0 0 24 24" className="w-2/3 h-2/3 fill-current">
-            <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
-            <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </div>
-      </div>
+      {/* Logo Image */}
+      <img 
+        src="/attached_assets/Screenshot 2025-06-10 110115_1749571299138.JPEG" 
+        alt="JJ-Tech Logo" 
+        className={`${sizeClasses[size]} object-contain`}
+      />
       
       {/* Company Name */}
       <div className="flex flex-col">
