@@ -89,8 +89,7 @@ export default function ITTraining() {
                 <text x="710" y="295" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle">SEC</text>
                 
                 {/* Title */}
-                <text x="400" y="50" fill="#1e40af" fontSize="32" fontWeight="bold" textAnchor="middle">Professional IT Training</text>
-                <text x="400" y="80" fill="#64748b" fontSize="18" textAnchor="middle">Hands-on Learning • Expert Instructors • Industry Certification</text>
+                <text x="400" y="65" fill="#64748b" fontSize="18" textAnchor="middle">Hands-on Learning • Expert Instructors • Industry Certification</text>
                 
                 <defs>
                   <linearGradient id="itTrainingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
