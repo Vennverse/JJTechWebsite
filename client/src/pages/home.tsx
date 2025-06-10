@@ -1,25 +1,15 @@
-import Navigation from "@/components/navigation";
-import Hero from "@/components/hero";
-import VideoSection from "@/components/video-section";
-import About from "@/components/about";
-import Services from "@/components/services";
-import Team from "@/components/team";
-import Contact from "@/components/contact";
-import Footer from "@/components/footer";
+import JJTechNavigation from "@/components/jjtech-navigation";
+import JJTechHeader from "@/components/jjtech-header";
+import JJTechVideo from "@/components/jjtech-video";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
-      <Navigation />
+    <div className="min-h-screen bg-white">
+      <JJTechNavigation />
       <main>
-        <Hero />
-        <VideoSection />
-        <About />
-        <Services />
-        <Team />
-        <Contact />
+        <JJTechHeader />
+        <JJTechVideo />
       </main>
-      <Footer />
     </div>
   );
 }
