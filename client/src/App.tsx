@@ -23,6 +23,10 @@ function Router() {
       <Route path="/it-training" component={ITTraining} />
       <Route path="/pmo-services" component={PMOServices} />
       <Route path="/about-us" component={AboutUs} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/partnerships" component={Partnerships} />
+      <Route path="/consulting" component={ServicesPage} />
+      <Route path="/platform" component={ServicesPage} />
       <Route component={NotFound} />
     </Switch>
   );
