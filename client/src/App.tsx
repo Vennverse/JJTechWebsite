@@ -12,6 +12,7 @@ import PMOServices from "@/pages/pmo-services";
 import AboutUs from "@/pages/about-us";
 import Contact from "@/pages/contact";
 import Partnerships from "@/pages/partnerships";
+import IntegratedPlatform from "@/pages/integrated-platform";
 import NotFound from "@/pages/not-found";
 
 function Router() {
