@@ -46,20 +46,33 @@ export default function BusinessConsulting() {
           {/* Image Section */}
           <div className="flex justify-center items-center mt-12 space-x-8">
             <div className="relative">
-              <div className="w-64 h-64 bg-blue-900 rounded-full flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-4 bg-green-600 rounded-full flex items-center justify-center">
-                  <div className="text-white text-center">
-                    <div className="text-red-500 text-lg font-bold mb-2">
-                      Opportunities Are Endless As You Venture<br/>
-                      Into The World Of Franchising
-                    </div>
-                  </div>
+              {/* Franchising Success Illustration */}
+              <div className="w-64 h-64 bg-gradient-to-br from-sky-500 to-sky-700 rounded-full flex items-center justify-center relative overflow-hidden shadow-xl">
+                <svg viewBox="0 0 200 200" className="w-48 h-48">
+                  {/* Globe */}
+                  <circle cx="100" cy="100" r="80" fill="#10b981" opacity="0.8"/>
+                  <path d="M40 100 Q100 60 160 100 Q100 140 40 100" fill="#059669"/>
+                  <path d="M100 20 Q130 100 100 180 Q70 100 100 20" fill="#047857"/>
+                  
+                  {/* Success arrows */}
+                  <path d="M60 80 L80 60 L70 65 L90 45" stroke="#fbbf24" strokeWidth="3" fill="none"/>
+                  <path d="M140 80 L120 60 L130 65 L110 45" stroke="#fbbf24" strokeWidth="3" fill="none"/>
+                  
+                  {/* Dollar signs */}
+                  <text x="50" y="70" fill="#fbbf24" fontSize="20" fontWeight="bold">$</text>
+                  <text x="140" y="70" fill="#fbbf24" fontSize="20" fontWeight="bold">$</text>
+                  <text x="95" y="50" fill="#fbbf24" fontSize="24" fontWeight="bold">$</text>
+                </svg>
+                
+                <div className="absolute bottom-4 text-white text-center text-sm font-bold">
+                  Opportunities Are Endless<br/>
+                  In Franchising
                 </div>
               </div>
             </div>
             
-            <div className="bg-yellow-400 p-6 rounded-lg max-w-sm">
-              <div className="text-black text-sm space-y-2">
+            <div className="bg-sky-600 p-6 rounded-lg max-w-sm">
+              <div className="text-white text-sm space-y-2">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
                     <div className="text-black font-bold">⏰</div>

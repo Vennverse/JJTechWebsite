@@ -14,10 +14,10 @@ export default function IntegratedPlatform() {
           </div>
         </section>
 
-        {/* Yellow Banner */}
-        <div className="bg-yellow-400 py-8">
+        {/* Sky Blue Banner */}
+        <div className="bg-sky-600 py-8">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-xl font-medium">
+            <h2 className="text-white text-xl font-medium">
               BIZBUYSELLMARKET - A SINGLE INTEGRATED PLATFORM FOR YOUR BUSINESS BUYING AND SELLING NEEDS
             </h2>
           </div>
