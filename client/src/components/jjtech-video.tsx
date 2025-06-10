@@ -1,28 +1,37 @@
 export default function JJTechVideo() {
   return (
     <div className="bg-white">
-      {/* Yellow Banner */}
-      <div className="bg-yellow-400 py-4">
+      {/* Teal Blue Banner */}
+      <div className="bg-teal-600 py-4">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="text-black text-lg">
+          <p className="text-white text-lg">
             IT Services - We provide the best in class service for you. We are your trusted partners.
           </p>
         </div>
       </div>
 
       {/* Video Section */}
-      <div className="max-w-4xl mx-auto py-12 px-4">
-        <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+      <div className="max-w-5xl mx-auto py-8 px-4">
+        <div className="bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden">
           <iframe
             width="100%"
-            height="500"
-            src="https://www.youtube.com/embed/dOs-cRC1Pqw"
+            height="450"
+            src="https://www.youtube.com/embed/dOs-cRC1Pqw?rel=0&modestbranding=1"
             title="Welcome to JJ Tech"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
-            className="w-full h-96 md:h-[500px]"
+            className="w-full aspect-video"
+            style={{ minHeight: "400px" }}
           ></iframe>
+        </div>
+        
+        {/* Video Description */}
+        <div className="mt-4 text-center">
+          <h2 className="text-xl font-medium text-gray-800 mb-2">Welcome to JJ Tech</h2>
+          <p className="text-gray-600 text-sm">
+            Discover our comprehensive IT services and solutions that help businesses transform and grow.
+          </p>
         </div>
       </div>
     </div>

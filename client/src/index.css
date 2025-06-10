@@ -24,13 +24,13 @@
   --ring: 20 14.3% 4.1%;
   --radius: 0.5rem;
   
-  /* Brand colors */
-  --brand-50: 239 100% 97%;
-  --brand-100: 219 95% 93%;
-  --brand-500: 217 91% 60%;
-  --brand-600: 221 83% 53%;
-  --brand-700: 229 84% 45%;
-  --brand-900: 224 76% 48%;
+  /* Brand colors - Teal theme */
+  --brand-50: 166 76% 97%;
+  --brand-100: 154 55% 92%;
+  --brand-500: 174 83% 44%;
+  --brand-600: 173 82% 37%;
+  --brand-700: 175 77% 26%;
+  --brand-900: 175 84% 17%;
   
   /* Success color */
   --success: 142 76% 36%;
@@ -77,6 +77,10 @@
 @layer utilities {
   .brand-gradient {
     background: linear-gradient(135deg, hsl(var(--brand-50)) 0%, hsl(var(--brand-100)) 100%);
+  }
+  
+  .teal-gradient {
+    background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
   }
   
   .text-brand-50 { color: hsl(var(--brand-50)); }
