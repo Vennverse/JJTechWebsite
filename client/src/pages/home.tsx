@@ -8,6 +8,7 @@ export default function Home() {
       <JJTechNavigation />
       <main>
         <JJTechHeader />
+        <JJTechVideo />
         
         {/* Capabilities Section */}
         <section className="py-16 bg-white">
@@ -21,42 +22,53 @@ export default function Home() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               
-              {/* IT Services */}
+              {/* ITSM Capabilities */}
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 p-8 flex items-center justify-center">
                   <svg viewBox="0 0 400 200" className="w-full h-full">
-                    {/* Server Racks */}
-                    <rect x="50" y="60" width="80" height="120" fill="#ffffff" rx="8" opacity="0.9"/>
-                    <rect x="60" y="70" width="60" height="8" fill="#0ea5e9" rx="2"/>
-                    <rect x="60" y="85" width="60" height="8" fill="#10b981" rx="2"/>
-                    <rect x="60" y="100" width="60" height="8" fill="#f59e0b" rx="2"/>
-                    <rect x="60" y="115" width="60" height="8" fill="#ef4444" rx="2"/>
+                    {/* ITSM Service Desk */}
+                    <rect x="80" y="40" width="240" height="120" fill="#ffffff" rx="12" opacity="0.9"/>
                     
-                    <rect x="150" y="40" width="80" height="140" fill="#ffffff" rx="8" opacity="0.9"/>
-                    <rect x="160" y="50" width="60" height="8" fill="#0ea5e9" rx="2"/>
-                    <rect x="160" y="65" width="60" height="8" fill="#10b981" rx="2"/>
-                    <rect x="160" y="80" width="60" height="8" fill="#f59e0b" rx="2"/>
+                    {/* Service Desk Interface */}
+                    <rect x="100" y="60" width="200" height="80" fill="#0ea5e9" rx="8" opacity="0.8"/>
                     
-                    <rect x="250" y="70" width="80" height="110" fill="#ffffff" rx="8" opacity="0.9"/>
-                    <rect x="260" y="80" width="60" height="8" fill="#0ea5e9" rx="2"/>
-                    <rect x="260" y="95" width="60" height="8" fill="#10b981" rx="2"/>
+                    {/* Ticket Management */}
+                    <rect x="110" y="70" width="60" height="12" fill="#ffffff" rx="2"/>
+                    <rect x="110" y="90" width="80" height="8" fill="#10b981" rx="2"/>
+                    <rect x="110" y="105" width="70" height="8" fill="#f59e0b" rx="2"/>
+                    <rect x="110" y="120" width="60" height="8" fill="#ef4444" rx="2"/>
                     
-                    {/* Network connections */}
-                    <line x1="130" y1="120" x2="150" y2="120" stroke="#ffffff" strokeWidth="3"/>
-                    <line x1="230" y1="120" x2="250" y2="120" stroke="#ffffff" strokeWidth="3"/>
+                    {/* ITIL Processes */}
+                    <circle cx="220" cy="85" r="25" fill="#ffffff" opacity="0.8"/>
+                    <text x="220" y="90" fill="#0ea5e9" fontSize="8" fontWeight="bold" textAnchor="middle">ITIL</text>
                     
-                    {/* Cloud icon */}
-                    <ellipse cx="350" cy="80" rx="30" ry="20" fill="#ffffff" opacity="0.8"/>
-                    <text x="350" y="85" fill="#0ea5e9" fontSize="12" fontWeight="bold" textAnchor="middle">CLOUD</text>
+                    <circle cx="260" cy="110" r="20" fill="#ffffff" opacity="0.8"/>
+                    <text x="260" y="115" fill="#0ea5e9" fontSize="7" fontWeight="bold" textAnchor="middle">SLA</text>
+                    
+                    {/* Service Categories */}
+                    <rect x="50" y="170" width="60" height="20" fill="#ffffff" opacity="0.7" rx="4"/>
+                    <text x="80" y="183" fill="#0ea5e9" fontSize="9" fontWeight="bold" textAnchor="middle">Incident</text>
+                    
+                    <rect x="130" y="170" width="60" height="20" fill="#ffffff" opacity="0.7" rx="4"/>
+                    <text x="160" y="183" fill="#0ea5e9" fontSize="9" fontWeight="bold" textAnchor="middle">Change</text>
+                    
+                    <rect x="210" y="170" width="60" height="20" fill="#ffffff" opacity="0.7" rx="4"/>
+                    <text x="240" y="183" fill="#0ea5e9" fontSize="9" fontWeight="bold" textAnchor="middle">Problem</text>
+                    
+                    <rect x="290" y="170" width="60" height="20" fill="#ffffff" opacity="0.7" rx="4"/>
+                    <text x="320" y="183" fill="#0ea5e9" fontSize="9" fontWeight="bold" textAnchor="middle">Request</text>
+                    
+                    {/* Workflow arrows */}
+                    <polygon points="190,95 210,85 210,90 205,90 205,100 210,100 210,105" fill="#ffffff" opacity="0.6"/>
                   </svg>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">IT Infrastructure</h3>
-                  <p className="text-gray-600 mb-4">Complete IT infrastructure management, cloud migration, and system optimization services.</p>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">ITSM Capabilities</h3>
+                  <p className="text-gray-600 mb-4">Comprehensive IT Service Management following ITIL best practices for operational excellence.</p>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Server & Network Management</li>
-                    <li>• Cloud Solutions & Migration</li>
-                    <li>• Security Implementation</li>
+                    <li>• Incident & Problem Management</li>
+                    <li>• Change & Release Management</li>
+                    <li>• Service Level Management</li>
                   </ul>
                 </div>
               </div>
@@ -258,8 +270,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <JJTechVideo />
       </main>
     </div>
   );
