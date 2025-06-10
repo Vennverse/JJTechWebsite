@@ -14,10 +14,10 @@ export default function PMOServices() {
           </div>
         </section>
 
-        {/* Sky Blue Banner */}
-        <div className="bg-sky-600 py-6">
+        {/* Yellow Banner */}
+        <div className="bg-yellow-400 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-white text-lg font-medium">
+            <h2 className="text-black text-lg font-medium">
               PMO Services - We partner and collaborate with you in setting up your PMO. We are your trusted advisors.
             </h2>
           </div>
@@ -38,9 +38,9 @@ export default function PMOServices() {
 
           {/* PMO Offering Box */}
           <div className="flex justify-center">
-            <div className="bg-white border-4 border-blue-600 rounded-lg p-8 max-w-2xl shadow-lg">
+            <div className="bg-white border-4 border-yellow-400 rounded-lg p-8 max-w-2xl shadow-lg">
               <div className="text-center mb-6">
-                <h3 className="text-blue-600 font-bold text-xl mb-4">PMO OFFERING</h3>
+                <h3 className="text-black font-bold text-xl mb-4">PMO OFFERING</h3>
                 
                 {/* Circular diagram representation */}
                 <div className="flex justify-center mb-6">
@@ -50,8 +50,8 @@ export default function PMOServices() {
                       <div className="text-white text-xs font-bold text-center">PMO</div>
                     </div>
                     
-                    {/* Surrounding circles */}
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-blue-500 rounded-full"></div>
+                    {/* Surrounding circles - matching original colors */}
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-yellow-500 rounded-full"></div>
                     <div className="absolute top-4 right-4 w-8 h-8 bg-green-600 rounded-full"></div>
                     <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full"></div>
                     <div className="absolute bottom-4 right-4 w-8 h-8 bg-purple-500 rounded-full"></div>
@@ -63,7 +63,7 @@ export default function PMOServices() {
                 </div>
               </div>
               
-              <div className="text-gray-800 text-sm space-y-2">
+              <div className="text-black text-sm space-y-2">
                 <div className="text-center space-y-1">
                   <div><strong>Portfolio Management</strong></div>
                   <div><strong>Program Management</strong></div>
@@ -76,8 +76,8 @@ export default function PMOServices() {
                   <div><strong>ROI</strong></div>
                 </div>
                 
-                <div className="text-center mt-6 pt-4 border-t border-blue-300">
-                  <div className="text-gray-800 font-bold">Contact us at 214.699.1761 or email us at jj.tech.us.corp@gmail.com</div>
+                <div className="text-center mt-6 pt-4 border-t border-yellow-300 bg-yellow-400 p-2 rounded">
+                  <div className="text-black font-bold">Contact us at 214.699.1761 or email us at jj.tech.us.corp@gmail.com</div>
                 </div>
               </div>
             </div>
