@@ -20,8 +20,7 @@ export default function JJTechNavigation() {
             <Link href="/about-us" className="hover:text-gray-300 transition-colors">About Us</Link>
             <Link href="/partnerships" className="hover:text-gray-300 transition-colors">Our Partnerships</Link>
             <Link href="/contact" className="hover:text-gray-300 transition-colors">Contact Us</Link>
-            <Link href="/consulting" className="hover:text-gray-300 transition-colors">Business Consulting</Link>
-            <Link href="/platform" className="hover:text-gray-300 transition-colors">Integrated Platform</Link>
+
           </nav>
 
           {/* Search Icon */}
