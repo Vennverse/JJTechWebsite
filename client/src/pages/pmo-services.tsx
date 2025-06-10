@@ -14,10 +14,10 @@ export default function PMOServices() {
           </div>
         </section>
 
-        {/* Yellow Banner */}
-        <div className="bg-yellow-400 py-6">
+        {/* Sky Blue Banner */}
+        <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-lg font-medium">
+            <h2 className="text-white text-lg font-medium">
               PMO Services - We partner and collaborate with you in setting up your PMO. We are your trusted advisors.
             </h2>
           </div>
@@ -38,9 +38,9 @@ export default function PMOServices() {
 
           {/* PMO Offering Box */}
           <div className="flex justify-center">
-            <div className="bg-yellow-400 border-4 border-yellow-500 rounded-lg p-8 max-w-2xl">
+            <div className="bg-sky-600 border-4 border-sky-700 rounded-lg p-8 max-w-2xl">
               <div className="text-center mb-6">
-                <h3 className="text-black font-bold text-xl mb-4">PMO OFFERING</h3>
+                <h3 className="text-white font-bold text-xl mb-4">PMO OFFERING</h3>
                 
                 {/* Circular diagram representation */}
                 <div className="flex justify-center mb-6">
@@ -63,7 +63,7 @@ export default function PMOServices() {
                 </div>
               </div>
               
-              <div className="text-black text-sm space-y-2">
+              <div className="text-white text-sm space-y-2">
                 <div className="text-center space-y-1">
                   <div><strong>Portfolio Management</strong></div>
                   <div><strong>Program Management</strong></div>

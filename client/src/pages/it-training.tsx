@@ -14,10 +14,10 @@ export default function ITTraining() {
           </div>
         </section>
 
-        {/* Yellow Banner */}
-        <div className="bg-yellow-400 py-6">
+        {/* Sky Blue Banner */}
+        <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-black text-lg font-medium">
+            <h2 className="text-white text-lg font-medium">
               Training Service - We Enable, Equip and Empower (e3)
             </h2>
           </div>
@@ -46,8 +46,8 @@ export default function ITTraining() {
               </div>
 
               {/* Right side - Training details */}
-              <div className="bg-yellow-400 p-6 w-2/3">
-                <div className="text-black text-sm space-y-4">
+              <div className="bg-sky-600 p-6 w-2/3">
+                <div className="text-white text-sm space-y-4">
                   <div className="font-bold text-center mb-4">Training will be provided on the following:</div>
                   
                   <div className="space-y-2">
