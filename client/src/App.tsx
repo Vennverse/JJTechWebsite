@@ -13,6 +13,7 @@ import AboutUs from "@/pages/about-us";
 import Contact from "@/pages/contact";
 import Partnerships from "@/pages/partnerships";
 import IntegratedPlatform from "@/pages/integrated-platform";
+import BusinessConsulting from "@/pages/business-consulting";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -27,7 +28,7 @@ function Router() {
       <Route path="/contact" component={Contact} />
       <Route path="/partnerships" component={Partnerships} />
       <Route path="/consulting" component={ServicesPage} />
-      <Route path="/platform" component={ServicesPage} />
+      <Route path="/platform" component={IntegratedPlatform} />
       <Route component={NotFound} />
     </Switch>
   );

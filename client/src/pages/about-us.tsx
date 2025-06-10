@@ -5,75 +5,66 @@ export default function AboutUs() {
     <div className="min-h-screen bg-white">
       <JJTechNavigation />
       <main>
+        {/* Main Header */}
         <section className="py-16 bg-gray-50">
           <div className="max-w-4xl mx-auto text-center px-4">
             <h1 className="text-4xl font-normal text-gray-800 mb-4">
-              About Us
+              Who We Are
             </h1>
           </div>
         </section>
 
-        <div className="bg-sky-600 py-4">
+        {/* Who We Are Section */}
+        <div className="bg-yellow-400 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <p className="text-white text-lg">
-              JJ-Tech is your trusted technology partner, delivering innovative solutions since our founding.
+            <h2 className="text-black text-lg font-medium">
+              Who We Are
+            </h2>
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto py-8 px-4">
+          <div className="text-gray-700 space-y-4">
+            <p>
+              We are a women owned, small business. We offer a number of services ranging from PMO Services, IT Training, IT services, Digital Marketing including Website Design and Development, Custom Application, Mobile Application to Digital Marketing, including SEO.
+            </p>
+            <p>
+              JJ-Tech Franchising offers Franchise Brokering and Consulting
             </p>
           </div>
         </div>
 
-        <div className="max-w-6xl mx-auto py-12 px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-semibold text-gray-800 mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Founded with a vision to bridge the gap between business needs and technological innovation, 
-                JJ-Tech has been helping organizations transform their operations and achieve their goals through 
-                cutting-edge technology solutions.
-              </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Our team of experienced professionals combines deep technical expertise with business acumen 
-                to deliver solutions that not only meet current requirements but also position organizations 
-                for future growth and success.
-              </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-3xl font-bold text-sky-600">500+</div>
-                  <div className="text-sm text-gray-600">Projects Completed</div>
-                </div>
-                <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-3xl font-bold text-sky-600">15+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
-                </div>
-              </div>
-            </div>
-            
-            <div>
-              <h2 className="text-3xl font-semibold text-gray-800 mb-6">Our Mission</h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                To empower businesses through innovative technology solutions that drive efficiency, 
-                productivity, and sustainable growth in an ever-evolving digital landscape.
-              </p>
-              
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Core Values</h3>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
-                  <span><strong>Innovation:</strong> Continuously exploring new technologies and methodologies</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
-                  <span><strong>Excellence:</strong> Delivering the highest quality solutions and services</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
-                  <span><strong>Partnership:</strong> Building long-term relationships with our clients</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-sky-600 rounded-full mt-2"></div>
-                  <span><strong>Integrity:</strong> Maintaining transparency and trust in all our interactions</span>
-                </li>
-              </ul>
-            </div>
+        {/* Our Vision Section */}
+        <div className="bg-yellow-400 py-6">
+          <div className="max-w-6xl mx-auto px-4 text-center">
+            <h2 className="text-black text-lg font-medium">
+              Our Vision
+            </h2>
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto py-8 px-4">
+          <div className="text-gray-700">
+            <p>
+              Our Vision is to Enable, Equip and Empower (E3) Companies and people to achieve their strategic goals by streamlining processes and by increasing operational effectiveness
+            </p>
+          </div>
+        </div>
+
+        {/* Our Mission Section */}
+        <div className="bg-yellow-400 py-6">
+          <div className="max-w-6xl mx-auto px-4 text-center">
+            <h2 className="text-black text-lg font-medium">
+              Our Mission
+            </h2>
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto py-8 px-4">
+          <div className="text-gray-700">
+            <p>
+              Our Mission is to Provide unparalleled services to our clients
+            </p>
           </div>
         </div>
       </main>
