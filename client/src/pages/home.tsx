@@ -114,42 +114,52 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Training Services */}
+              {/* Recruitment and Placement */}
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-purple-500 to-purple-700 p-8 flex items-center justify-center">
                   <svg viewBox="0 0 400 200" className="w-full h-full">
-                    {/* Classroom setup */}
-                    <rect x="50" y="50" width="120" height="80" fill="#ffffff" rx="8" opacity="0.9"/>
-                    <rect x="60" y="60" width="100" height="60" fill="#8b5cf6" rx="4"/>
+                    {/* Recruitment Process */}
+                    <rect x="50" y="80" width="300" height="80" fill="#ffffff" rx="12" opacity="0.2"/>
                     
-                    {/* Students */}
-                    <circle cx="220" cy="120" r="15" fill="#ffffff"/>
-                    <circle cx="260" cy="120" r="15" fill="#ffffff"/>
-                    <circle cx="300" cy="120" r="15" fill="#ffffff"/>
+                    {/* Candidates */}
+                    <circle cx="80" cy="120" r="20" fill="#ffffff"/>
+                    <circle cx="130" cy="120" r="20" fill="#ffffff"/>
+                    <circle cx="180" cy="120" r="20" fill="#ffffff"/>
                     
-                    {/* Laptops */}
-                    <rect x="210" y="140" width="20" height="15" fill="#ffffff" rx="2"/>
-                    <rect x="250" y="140" width="20" height="15" fill="#ffffff" rx="2"/>
-                    <rect x="290" y="140" width="20" height="15" fill="#ffffff" rx="2"/>
+                    {/* Selection funnel */}
+                    <polygon points="220,90 280,90 270,130 230,130" fill="#ffffff" opacity="0.8"/>
+                    <text x="250" y="115" fill="#8b5cf6" fontSize="10" fontWeight="bold" textAnchor="middle">Filter</text>
                     
-                    {/* Instructor */}
-                    <circle cx="110" cy="40" r="12" fill="#ffffff"/>
+                    {/* Selected candidate */}
+                    <circle cx="320" cy="120" r="25" fill="#ffffff"/>
+                    <circle cx="320" cy="120" r="15" fill="#10b981"/>
+                    <text x="320" y="125" fill="#ffffff" fontSize="8" fontWeight="bold" textAnchor="middle">✓</text>
                     
-                    {/* Certification badges */}
-                    <circle cx="320" cy="60" r="20" fill="#ffffff" opacity="0.8"/>
-                    <text x="320" y="65" fill="#8b5cf6" fontSize="10" fontWeight="bold" textAnchor="middle">PMP</text>
+                    {/* Skills badges */}
+                    <rect x="60" y="50" width="40" height="15" fill="#ffffff" opacity="0.8" rx="3"/>
+                    <text x="80" y="62" fill="#8b5cf6" fontSize="8" fontWeight="bold" textAnchor="middle">Java</text>
                     
-                    <circle cx="360" cy="80" r="20" fill="#ffffff" opacity="0.8"/>
-                    <text x="360" y="85" fill="#8b5cf6" fontSize="9" fontWeight="bold" textAnchor="middle">ITIL</text>
+                    <rect x="110" y="50" width="40" height="15" fill="#ffffff" opacity="0.8" rx="3"/>
+                    <text x="130" y="62" fill="#8b5cf6" fontSize="8" fontWeight="bold" textAnchor="middle">AWS</text>
+                    
+                    <rect x="160" y="50" width="40" height="15" fill="#ffffff" opacity="0.8" rx="3"/>
+                    <text x="180" y="62" fill="#8b5cf6" fontSize="8" fontWeight="bold" textAnchor="middle">PM</text>
+                    
+                    {/* Company match */}
+                    <rect x="290" y="50" width="60" height="25" fill="#ffffff" opacity="0.9" rx="4"/>
+                    <text x="320" y="67" fill="#8b5cf6" fontSize="9" fontWeight="bold" textAnchor="middle">Company</text>
+                    
+                    {/* Connection line */}
+                    <line x1="320" y1="75" x2="320" y2="95" stroke="#ffffff" strokeWidth="3"/>
                   </svg>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Professional Training</h3>
-                  <p className="text-gray-600 mb-4">Comprehensive certification training programs to advance your career and technical skills.</p>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Recruitment & Placement</h3>
+                  <p className="text-gray-600 mb-4">Connect top IT talent with leading organizations through our comprehensive recruitment services.</p>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• PMP & ITIL Certification</li>
-                    <li>• Agile & Scrum Training</li>
-                    <li>• Career Development</li>
+                    <li>• Technical Talent Sourcing</li>
+                    <li>• Skills Assessment & Matching</li>
+                    <li>• Contract & Permanent Placement</li>
                   </ul>
                 </div>
               </div>
@@ -190,38 +200,50 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Cybersecurity */}
+              {/* IT Assessment and Strategy */}
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-red-500 to-red-700 p-8 flex items-center justify-center">
                   <svg viewBox="0 0 400 200" className="w-full h-full">
-                    {/* Shield */}
-                    <path d="M200 30 L160 50 L160 120 Q160 150 200 170 Q240 150 240 120 L240 50 Z" fill="#ffffff" opacity="0.9"/>
+                    {/* Assessment Framework */}
+                    <rect x="80" y="40" width="240" height="120" fill="#ffffff" rx="12" opacity="0.9"/>
                     
-                    {/* Lock icon */}
-                    <rect x="185" y="90" width="30" height="25" fill="#ef4444" rx="4"/>
-                    <path d="M190 90 Q190 80 200 80 Q210 80 210 90" stroke="#ef4444" strokeWidth="3" fill="none"/>
+                    {/* Strategic Planning Grid */}
+                    <rect x="100" y="60" width="80" height="35" fill="#ef4444" rx="4" opacity="0.8"/>
+                    <text x="140" y="82" fill="#ffffff" fontSize="9" fontWeight="bold" textAnchor="middle">Current State</text>
                     
-                    {/* Security elements */}
-                    <circle cx="120" cy="80" r="15" fill="#ffffff" opacity="0.6"/>
-                    <text x="120" y="85" fill="#ef4444" fontSize="10" fontWeight="bold" textAnchor="middle">SSL</text>
+                    <rect x="200" y="60" width="80" height="35" fill="#f97316" rx="4" opacity="0.8"/>
+                    <text x="240" y="82" fill="#ffffff" fontSize="9" fontWeight="bold" textAnchor="middle">Gap Analysis</text>
                     
-                    <circle cx="280" cy="80" r="15" fill="#ffffff" opacity="0.6"/>
-                    <text x="280" y="85" fill="#ef4444" fontSize="8" fontWeight="bold" textAnchor="middle">2FA</text>
+                    <rect x="100" y="110" width="80" height="35" fill="#10b981" rx="4" opacity="0.8"/>
+                    <text x="140" y="132" fill="#ffffff" fontSize="9" fontWeight="bold" textAnchor="middle">Future State</text>
                     
-                    <circle cx="120" cy="130" r="15" fill="#ffffff" opacity="0.6"/>
-                    <text x="120" y="135" fill="#ef4444" fontSize="8" fontWeight="bold" textAnchor="middle">VPN</text>
+                    <rect x="200" y="110" width="80" height="35" fill="#0ea5e9" rx="4" opacity="0.8"/>
+                    <text x="240" y="132" fill="#ffffff" fontSize="9" fontWeight="bold" textAnchor="middle">Roadmap</text>
                     
-                    <circle cx="280" cy="130" r="15" fill="#ffffff" opacity="0.6"/>
-                    <text x="280" y="135" fill="#ef4444" fontSize="8" fontWeight="bold" textAnchor="middle">FW</text>
+                    {/* Strategic Elements */}
+                    <circle cx="60" cy="100" r="15" fill="#ffffff" opacity="0.8"/>
+                    <text x="60" y="105" fill="#ef4444" fontSize="7" fontWeight="bold" textAnchor="middle">SWOT</text>
+                    
+                    <circle cx="340" cy="100" r="15" fill="#ffffff" opacity="0.8"/>
+                    <text x="340" y="105" fill="#ef4444" fontSize="7" fontWeight="bold" textAnchor="middle">ROI</text>
+                    
+                    {/* Assessment indicators */}
+                    <rect x="120" y="170" width="30" height="8" fill="#ffffff" opacity="0.7" rx="2"/>
+                    <rect x="160" y="170" width="30" height="8" fill="#ffffff" opacity="0.7" rx="2"/>
+                    <rect x="200" y="170" width="30" height="8" fill="#ffffff" opacity="0.7" rx="2"/>
+                    <rect x="240" y="170" width="30" height="8" fill="#ffffff" opacity="0.7" rx="2"/>
+                    
+                    {/* Arrow showing progression */}
+                    <polygon points="290,95 310,85 310,90 305,90 305,100 310,100 310,105" fill="#ffffff" opacity="0.8"/>
                   </svg>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Cybersecurity</h3>
-                  <p className="text-gray-600 mb-4">Comprehensive security solutions to protect your digital assets and infrastructure.</p>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">IT Assessment & Strategy</h3>
+                  <p className="text-gray-600 mb-4">Comprehensive IT assessments and strategic planning to optimize your technology investments.</p>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Security Assessment</li>
-                    <li>• Threat Protection</li>
-                    <li>• Compliance Management</li>
+                    <li>• Current State Assessment</li>
+                    <li>• Technology Roadmap Planning</li>
+                    <li>• Strategic IT Alignment</li>
                   </ul>
                 </div>
               </div>
