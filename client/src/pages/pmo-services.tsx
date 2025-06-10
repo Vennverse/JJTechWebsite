@@ -36,51 +36,102 @@ export default function PMOServices() {
             </div>
           </div>
 
-          {/* PMO Offering Box */}
-          <div className="flex justify-center">
-            <div className="bg-white border-4 border-sky-600 rounded-lg p-8 max-w-2xl shadow-lg">
-              <div className="text-center mb-6">
-                <h3 className="text-sky-600 font-bold text-xl mb-4">PMO OFFERING</h3>
-                
-                {/* Circular diagram representation */}
-                <div className="flex justify-center mb-6">
-                  <div className="relative w-48 h-48">
-                    {/* Center circle */}
-                    <div className="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
-                      <div className="text-white text-xs font-bold text-center">PMO</div>
-                    </div>
-                    
-                    {/* Surrounding circles - blue theme */}
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-sky-500 rounded-full"></div>
-                    <div className="absolute top-4 right-4 w-8 h-8 bg-green-600 rounded-full"></div>
-                    <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full"></div>
-                    <div className="absolute bottom-4 right-4 w-8 h-8 bg-purple-500 rounded-full"></div>
-                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-red-500 rounded-full"></div>
-                    <div className="absolute bottom-4 left-4 w-8 h-8 bg-orange-500 rounded-full"></div>
-                    <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-green-400 rounded-full"></div>
-                    <div className="absolute top-4 left-4 w-8 h-8 bg-blue-400 rounded-full"></div>
-                  </div>
-                </div>
+          {/* PMO Services Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Portfolio Management</h3>
               </div>
-              
-              <div className="text-black text-sm space-y-2">
-                <div className="text-center space-y-1">
-                  <div><strong>Portfolio Management</strong></div>
-                  <div><strong>Program Management</strong></div>
-                  <div><strong>Project Management</strong></div>
-                  <div><strong>Process Improvement</strong></div>
-                  <div><strong>Repeatable Processes</strong></div>
-                  <div><strong>Best practices/Standards</strong></div>
-                  <div><strong>Governance</strong></div>
-                  <div><strong>Methodologies</strong></div>
-                  <div><strong>ROI</strong></div>
-                </div>
-                
-                <div className="text-center mt-6 pt-4 border-t border-sky-300 bg-sky-600 p-2 rounded">
-                  <div className="text-white font-bold">Contact us at 214.699.1761 or email us at jj.tech.us.corp@gmail.com</div>
-                </div>
-              </div>
+              <p className="text-gray-600 text-sm">
+                Strategic oversight and governance of all projects and programs to ensure alignment with business objectives and maximize value delivery.
+              </p>
             </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Program Management</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Coordinated management of related projects to achieve benefits and control not available from managing them individually.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Project Management</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                End-to-end project execution with proven methodologies to deliver projects on time, within budget, and to specification.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Process Improvement</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Continuous enhancement of organizational processes to increase efficiency, reduce waste, and improve quality outcomes.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Repeatable Processes</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Development and implementation of standardized, repeatable processes that ensure consistent delivery and quality.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Best Practices/Standards</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Implementation of industry best practices and standards to ensure excellence in project delivery and organizational maturity.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Governance</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Establishment of governance frameworks to ensure proper oversight, decision-making, and accountability across all initiatives.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Methodologies</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Implementation of proven project management methodologies including Agile, Waterfall, and hybrid approaches.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">ROI & Value Management</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Measurement and optimization of return on investment to ensure maximum value delivery from all projects and programs.
+              </p>
+            </div>
+          </div>
+
+          {/* Contact Section */}
+          <div className="text-center mt-12 p-6 bg-sky-600 rounded-lg">
+            <div className="text-white font-bold">Contact us at 214.699.1761 or email us at jj.tech.us.corp@gmail.com</div>
           </div>
         </div>
       </main>
