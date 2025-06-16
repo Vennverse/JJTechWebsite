@@ -1,0 +1,229 @@
+import JJTechNavigation from "@/components/jjtech-navigation";
+import { Brain, Zap, Target, Shield, Database, Bot, Cpu, Eye } from "lucide-react";
+
+export default function AISolutions() {
+  return (
+    <div className="min-h-screen bg-white">
+      <JJTechNavigation />
+      
+      {/* Hero Section */}
+      <section className="py-16 bg-gradient-to-br from-sky-50 to-blue-50">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">
+            AI Solutions
+          </h1>
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Harness the power of artificial intelligence to transform your business operations, 
+            enhance decision-making, and unlock new opportunities for growth.
+          </p>
+        </div>
+      </section>
+
+      {/* Services Banner */}
+      <div className="bg-sky-600 py-4">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <p className="text-white text-lg">
+            Cutting-edge AI solutions tailored to your business needs
+          </p>
+        </div>
+      </div>
+
+      {/* AI Services Grid */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Our AI Services</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">
+              From machine learning implementation to intelligent automation, we deliver AI solutions 
+              that drive measurable business outcomes.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Machine Learning */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Brain className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">Machine Learning</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Custom ML models for predictive analytics, classification, and pattern recognition 
+                to enhance your business intelligence.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Predictive modeling and forecasting</li>
+                <li>• Customer behavior analysis</li>
+                <li>• Fraud detection systems</li>
+                <li>• Recommendation engines</li>
+              </ul>
+            </div>
+
+            {/* Process Automation */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Bot className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">Intelligent Automation</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Automate complex business processes with AI-powered solutions that adapt 
+                and learn from your operations.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Robotic Process Automation (RPA)</li>
+                <li>• Document processing automation</li>
+                <li>• Workflow optimization</li>
+                <li>• Smart decision engines</li>
+              </ul>
+            </div>
+
+            {/* Natural Language Processing */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Zap className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">Natural Language Processing</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Extract insights from text data and enable intelligent communication 
+                between systems and users.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Sentiment analysis</li>
+                <li>• Chatbots and virtual assistants</li>
+                <li>• Content generation</li>
+                <li>• Language translation services</li>
+              </ul>
+            </div>
+
+            {/* Computer Vision */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Eye className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">Computer Vision</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Analyze and interpret visual data to automate inspection, monitoring, 
+                and quality control processes.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Image recognition and classification</li>
+                <li>• Quality control automation</li>
+                <li>• Facial recognition systems</li>
+                <li>• Object detection and tracking</li>
+              </ul>
+            </div>
+
+            {/* AI Strategy & Consulting */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Target className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Strategy & Consulting</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Develop comprehensive AI strategies aligned with your business objectives 
+                and technical capabilities.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• AI readiness assessment</li>
+                <li>• Strategic roadmap development</li>
+                <li>• Technology selection guidance</li>
+                <li>• ROI analysis and planning</li>
+              </ul>
+            </div>
+
+            {/* Data Engineering */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Database className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Data Engineering</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Build robust data pipelines and infrastructure to support your AI initiatives 
+                and ensure data quality.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Data pipeline development</li>
+                <li>• Data lake and warehouse setup</li>
+                <li>• Data quality and governance</li>
+                <li>• Model deployment infrastructure</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Applications */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Industry Applications</h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">
+              Our AI solutions span across various industries, delivering tailored approaches 
+              for unique business challenges.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Shield className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Healthcare</h3>
+              <p className="text-sm text-gray-600">
+                Medical imaging, patient data analysis, and predictive diagnostics
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Cpu className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Manufacturing</h3>
+              <p className="text-sm text-gray-600">
+                Predictive maintenance, quality control, and supply chain optimization
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Target className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Finance</h3>
+              <p className="text-sm text-gray-600">
+                Risk assessment, fraud detection, and algorithmic trading
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Brain className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Retail</h3>
+              <p className="text-sm text-gray-600">
+                Customer analytics, inventory optimization, and personalization
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-sky-600 text-white">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Business with AI?</h2>
+          <p className="text-xl mb-8">
+            Let's discuss how our AI solutions can drive innovation and growth for your organization.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              Schedule Consultation
+            </button>
+            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-sky-600 transition-colors">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <p className="text-gray-400">
+            © 2024 JJ-Tech. All rights reserved. | Email: contact@jj-tech.co
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
