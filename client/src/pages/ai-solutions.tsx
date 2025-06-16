@@ -1,5 +1,6 @@
 import JJTechNavigation from "@/components/jjtech-navigation";
 import { Brain, Zap, Target, Shield, Database, Bot, Cpu, Eye } from "lucide-react";
+import { Link } from "wouter";
 
 export default function AISolutions() {
   return (
@@ -94,23 +95,7 @@ export default function AISolutions() {
               </ul>
             </div>
 
-            {/* Computer Vision */}
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center mb-4">
-                <Eye className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Computer Vision</h3>
-              </div>
-              <p className="text-gray-600 mb-4">
-                Analyze and interpret visual data to automate inspection, monitoring, 
-                and quality control processes.
-              </p>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Image recognition and classification</li>
-                <li>• Quality control automation</li>
-                <li>• Facial recognition systems</li>
-                <li>• Object detection and tracking</li>
-              </ul>
-            </div>
+
 
             {/* AI Strategy & Consulting */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -162,7 +147,7 @@ export default function AISolutions() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
               <Shield className="h-12 w-12 text-sky-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Healthcare</h3>
@@ -189,9 +174,41 @@ export default function AISolutions() {
 
             <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
               <Brain className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Education</h3>
+              <p className="text-sm text-gray-600">
+                Personalized learning, student performance analytics, and curriculum optimization
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Zap className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Social Media</h3>
+              <p className="text-sm text-gray-600">
+                Content moderation, user engagement analytics, and trend prediction
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Database className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">IT Consulting</h3>
+              <p className="text-sm text-gray-600">
+                Infrastructure optimization, automated testing, and performance monitoring
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Bot className="h-12 w-12 text-sky-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Retail</h3>
               <p className="text-sm text-gray-600">
                 Customer analytics, inventory optimization, and personalization
+              </p>
+            </div>
+
+            <div className="text-center p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+              <Eye className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">And More</h3>
+              <p className="text-sm text-gray-600">
+                Custom AI solutions tailored to your specific industry and business needs
               </p>
             </div>
           </div>
@@ -206,12 +223,12 @@ export default function AISolutions() {
             Let's discuss how our AI solutions can drive innovation and growth for your organization.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+            <Link href="/contact" className="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center">
               Schedule Consultation
-            </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-sky-600 transition-colors">
+            </Link>
+            <Link href="/contact" className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-sky-600 transition-colors text-center">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </section>
