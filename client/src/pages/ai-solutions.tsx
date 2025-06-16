@@ -132,6 +132,42 @@ export default function AISolutions() {
                 <li>• Model deployment infrastructure</li>
               </ul>
             </div>
+
+            {/* AI Custom Development */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Cpu className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Custom Development</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Tailored AI solutions built from the ground up to meet your specific business 
+                requirements and operational workflows.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Custom AI model development</li>
+                <li>• Bespoke algorithm design</li>
+                <li>• Integration with existing systems</li>
+                <li>• Scalable AI architecture</li>
+              </ul>
+            </div>
+
+            {/* Marketing and Lead Generation */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Zap className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">Marketing & Lead Generation</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                AI-powered marketing solutions to optimize campaigns, identify prospects, 
+                and accelerate your sales pipeline.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Predictive lead scoring</li>
+                <li>• Automated campaign optimization</li>
+                <li>• Customer segmentation analysis</li>
+                <li>• Marketing attribution modeling</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
