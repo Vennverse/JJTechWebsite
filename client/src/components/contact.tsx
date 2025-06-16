@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -83,15 +83,7 @@ export default function Contact() {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <div className="bg-brand-600 rounded-lg p-3">
-                    <Phone className="h-6 w-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                  </div>
-                </div>
+
                 <div className="flex items-start space-x-4">
                   <div className="bg-brand-600 rounded-lg p-3">
                     <Mail className="h-6 w-6 text-white" />

@@ -30,10 +30,7 @@ export default function Contact() {
                   <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
                   <p className="text-gray-600">contact@jj-tech.co</p>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800 mb-2">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
-                </div>
+
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-2">Office Hours</h3>
                   <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>

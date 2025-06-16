@@ -202,7 +202,6 @@ export default function ITTraining() {
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Ready to Start Your Training Journey?</h3>
             <div className="space-y-3 text-lg text-gray-700">
               <div>📧 <strong>Email:</strong> jj.tech.us.corp@gmail.com</div>
-              <div>📞 <strong>Phone:</strong> 214.699.1761</div>
             </div>
             <div className="mt-8">
               <button className="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-8 rounded-lg transition-colors">
