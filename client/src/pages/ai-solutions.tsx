@@ -95,21 +95,21 @@ export default function AISolutions() {
               </ul>
             </div>
 
-            {/* AI for Consulting Services */}
+            {/* AI Strategy & Consulting */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <Brain className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">AI for Consulting Services</h3>
+                <Target className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Strategy & Consulting</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Specialized AI solutions designed to enhance consulting practices with 
-                data-driven insights and automated analysis capabilities.
+                Develop comprehensive AI strategies aligned with your business objectives 
+                and technical capabilities.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Client data analysis and insights</li>
-                <li>• Automated report generation</li>
-                <li>• Market research automation</li>
-                <li>• Strategic planning support tools</li>
+                <li>• AI readiness assessment</li>
+                <li>• Strategic roadmap development</li>
+                <li>• Technology selection guidance</li>
+                <li>• ROI analysis and planning</li>
               </ul>
             </div>
 
