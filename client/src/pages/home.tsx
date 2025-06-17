@@ -289,6 +289,144 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* QA Services */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-green-500 to-green-700 p-8 flex items-center justify-center">
+                  <svg viewBox="0 0 400 200" className="w-full h-full">
+                    {/* QA Testing Process */}
+                    <rect x="60" y="50" width="280" height="100" fill="#ffffff" rx="12" opacity="0.2"/>
+                    
+                    {/* Test Cases */}
+                    <rect x="80" y="70" width="60" height="60" fill="#ffffff" opacity="0.9" rx="8"/>
+                    <text x="110" y="105" fill="#16a34a" fontSize="10" fontWeight="bold" textAnchor="middle">Test Cases</text>
+                    
+                    {/* Automation */}
+                    <rect x="160" y="70" width="60" height="60" fill="#ffffff" opacity="0.9" rx="8"/>
+                    <text x="190" y="95" fill="#16a34a" fontSize="10" fontWeight="bold" textAnchor="middle">Auto</text>
+                    <text x="190" y="115" fill="#16a34a" fontSize="10" fontWeight="bold" textAnchor="middle">Testing</text>
+                    
+                    {/* Quality Metrics */}
+                    <rect x="240" y="70" width="60" height="60" fill="#ffffff" opacity="0.9" rx="8"/>
+                    <text x="270" y="95" fill="#16a34a" fontSize="10" fontWeight="bold" textAnchor="middle">Quality</text>
+                    <text x="270" y="115" fill="#16a34a" fontSize="10" fontWeight="bold" textAnchor="middle">Metrics</text>
+                    
+                    {/* Check marks */}
+                    <circle cx="110" cy="80" r="8" fill="#10b981"/>
+                    <text x="110" y="85" fill="#ffffff" fontSize="8" fontWeight="bold" textAnchor="middle">✓</text>
+                    
+                    <circle cx="190" cy="80" r="8" fill="#10b981"/>
+                    <text x="190" y="85" fill="#ffffff" fontSize="8" fontWeight="bold" textAnchor="middle">✓</text>
+                    
+                    <circle cx="270" cy="80" r="8" fill="#10b981"/>
+                    <text x="270" y="85" fill="#ffffff" fontSize="8" fontWeight="bold" textAnchor="middle">✓</text>
+                    
+                    {/* Bug tracking */}
+                    <rect x="150" y="160" width="100" height="25" fill="#ffffff" opacity="0.8" rx="4"/>
+                    <text x="200" y="177" fill="#16a34a" fontSize="9" fontWeight="bold" textAnchor="middle">Bug Tracking</text>
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">QA & Testing Services</h3>
+                  <p className="text-gray-600 mb-4">Comprehensive quality assurance and testing solutions to ensure flawless software delivery.</p>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Automated Testing Frameworks</li>
+                    <li>• Performance & Load Testing</li>
+                    <li>• Security & Compliance Testing</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* AI Solutions */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-indigo-500 to-indigo-700 p-8 flex items-center justify-center">
+                  <svg viewBox="0 0 400 200" className="w-full h-full">
+                    {/* AI Brain */}
+                    <ellipse cx="200" cy="100" rx="80" ry="60" fill="#ffffff" opacity="0.3"/>
+                    
+                    {/* Neural network nodes */}
+                    <circle cx="160" cy="80" r="6" fill="#ffffff"/>
+                    <circle cx="200" cy="70" r="6" fill="#ffffff"/>
+                    <circle cx="240" cy="80" r="6" fill="#ffffff"/>
+                    <circle cx="160" cy="120" r="6" fill="#ffffff"/>
+                    <circle cx="200" cy="130" r="6" fill="#ffffff"/>
+                    <circle cx="240" cy="120" r="6" fill="#ffffff"/>
+                    
+                    {/* Connections */}
+                    <line x1="160" y1="80" x2="200" y2="70" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    <line x1="200" y1="70" x2="240" y2="80" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    <line x1="160" y1="120" x2="200" y2="130" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    <line x1="200" y1="130" x2="240" y2="120" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    <line x1="160" y1="80" x2="160" y2="120" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    <line x1="240" y1="80" x2="240" y2="120" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    
+                    {/* AI symbols */}
+                    <text x="200" y="105" fill="#ffffff" fontSize="16" fontWeight="bold" textAnchor="middle">AI</text>
+                    
+                    {/* Data streams */}
+                    <rect x="60" y="90" width="60" height="20" fill="#ffffff" opacity="0.8" rx="4"/>
+                    <text x="90" y="105" fill="#6366f1" fontSize="9" fontWeight="bold" textAnchor="middle">Data Input</text>
+                    
+                    <rect x="280" y="90" width="60" height="20" fill="#ffffff" opacity="0.8" rx="4"/>
+                    <text x="310" y="105" fill="#6366f1" fontSize="9" fontWeight="bold" textAnchor="middle">AI Output</text>
+                    
+                    {/* Arrows */}
+                    <polygon points="125,100 140,95 140,105" fill="#ffffff"/>
+                    <polygon points="275,100 260,95 260,105" fill="#ffffff"/>
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">AI Solutions</h3>
+                  <p className="text-gray-600 mb-4">Cutting-edge artificial intelligence solutions to transform your business operations and decision-making.</p>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Machine Learning Implementation</li>
+                    <li>• AI Chatbots & Virtual Assistants</li>
+                    <li>• Predictive Analytics & Automation</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Training & Coaching */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-teal-500 to-teal-700 p-8 flex items-center justify-center">
+                  <svg viewBox="0 0 400 200" className="w-full h-full">
+                    {/* Training classroom */}
+                    <rect x="80" y="60" width="240" height="100" fill="#ffffff" rx="12" opacity="0.3"/>
+                    
+                    {/* Presenter */}
+                    <rect x="100" y="80" width="60" height="60" fill="#ffffff" opacity="0.9" rx="8"/>
+                    <circle cx="130" cy="100" r="12" fill="#14b8a6"/>
+                    <rect x="120" y="115" width="20" height="20" fill="#14b8a6"/>
+                    <text x="130" y="105" fill="#ffffff" fontSize="8" fontWeight="bold" textAnchor="middle">👨‍🏫</text>
+                    
+                    {/* Students */}
+                    <rect x="180" y="90" width="30" height="30" fill="#ffffff" opacity="0.8" rx="4"/>
+                    <rect x="220" y="90" width="30" height="30" fill="#ffffff" opacity="0.8" rx="4"/>
+                    <rect x="260" y="90" width="30" height="30" fill="#ffffff" opacity="0.8" rx="4"/>
+                    
+                    {/* Training materials */}
+                    <rect x="180" y="130" width="110" height="20" fill="#ffffff" opacity="0.8" rx="4"/>
+                    <text x="235" y="145" fill="#14b8a6" fontSize="9" fontWeight="bold" textAnchor="middle">Training Materials</text>
+                    
+                    {/* Knowledge transfer arrows */}
+                    <polygon points="170,100 175,95 175,105" fill="#ffffff"/>
+                    <line x1="160" y1="100" x2="170" y2="100" stroke="#ffffff" strokeWidth="2"/>
+                    
+                    {/* Certification */}
+                    <rect x="150" y="40" width="100" height="15" fill="#ffffff" opacity="0.9" rx="3"/>
+                    <text x="200" y="52" fill="#14b8a6" fontSize="8" fontWeight="bold" textAnchor="middle">Certification Ready</text>
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Training & Coaching</h3>
+                  <p className="text-gray-600 mb-4">Professional development programs and coaching services to enhance your team's technical capabilities.</p>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Technical Skills Development</li>
+                    <li>• Leadership & Management Training</li>
+                    <li>• Certification Preparation</li>
+                  </ul>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>

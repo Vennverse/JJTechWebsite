@@ -306,6 +306,42 @@ export default function ITTraining() {
               </div>
             </div>
 
+            {/* AI Training */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-indigo-600">
+              <div className="text-indigo-600 mb-4">
+                <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">AI Training</h3>
+              <div className="space-y-3 text-gray-700">
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>Machine Learning Fundamentals</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>AI Implementation Strategies</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>Neural Networks & Deep Learning</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>AI Ethics & Responsible AI Development</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>Natural Language Processing</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>Computer Vision Applications</div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
