@@ -427,6 +427,98 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* Custom App Development & Website Creation */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 p-8 flex items-center justify-center">
+                  <svg viewBox="0 0 400 200" className="w-full h-full">
+                    {/* App Development Process */}
+                    <rect x="50" y="40" width="300" height="120" fill="#ffffff" rx="12" opacity="0.3"/>
+                    
+                    {/* Code Editor */}
+                    <rect x="70" y="60" width="120" height="80" fill="#ffffff" opacity="0.9" rx="8"/>
+                    <rect x="80" y="70" width="100" height="8" fill="#2563eb" opacity="0.8" rx="2"/>
+                    <rect x="80" y="85" width="80" height="8" fill="#2563eb" opacity="0.6" rx="2"/>
+                    <rect x="80" y="100" width="90" height="8" fill="#2563eb" opacity="0.7" rx="2"/>
+                    <rect x="80" y="115" width="70" height="8" fill="#2563eb" opacity="0.5" rx="2"/>
+                    
+                    {/* Arrow */}
+                    <polygon points="210,100 230,90 230,95 225,95 225,105 230,105 230,110" fill="#ffffff"/>
+                    
+                    {/* Mobile/Web App */}
+                    <rect x="250" y="70" width="80" height="60" fill="#ffffff" opacity="0.9" rx="12"/>
+                    <rect x="260" y="80" width="60" height="8" fill="#2563eb" opacity="0.8" rx="2"/>
+                    <rect x="260" y="95" width="40" height="8" fill="#2563eb" opacity="0.6" rx="2"/>
+                    <rect x="260" y="110" width="50" height="8" fill="#2563eb" opacity="0.7" rx="2"/>
+                    
+                    {/* Website elements */}
+                    <circle cx="100" cy="40" r="8" fill="#ffffff" opacity="0.8"/>
+                    <circle cx="200" cy="35" r="8" fill="#ffffff" opacity="0.8"/>
+                    <circle cx="300" cy="40" r="8" fill="#ffffff" opacity="0.8"/>
+                    
+                    {/* Connection lines */}
+                    <line x1="108" y1="40" x2="192" y2="35" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                    <line x1="208" y1="35" x2="292" y2="40" stroke="#ffffff" strokeWidth="2" opacity="0.6"/>
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Custom App Development & Website Creation</h3>
+                  <p className="text-gray-600 mb-4">End-to-end development of custom applications and responsive websites tailored to your business needs.</p>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Custom Web & Mobile Applications</li>
+                    <li>• Responsive Website Design</li>
+                    <li>• E-commerce & CMS Solutions</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Digital Marketing & Lead Generation */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow">
+                <div className="h-48 bg-gradient-to-br from-pink-500 to-pink-700 p-8 flex items-center justify-center">
+                  <svg viewBox="0 0 400 200" className="w-full h-full">
+                    {/* Marketing Funnel */}
+                    <rect x="80" y="40" width="240" height="120" fill="#ffffff" rx="12" opacity="0.3"/>
+                    
+                    {/* Funnel Shape */}
+                    <polygon points="120,60 280,60 260,90 140,90" fill="#ffffff" opacity="0.9"/>
+                    <text x="200" y="80" fill="#ec4899" fontSize="10" fontWeight="bold" textAnchor="middle">Awareness</text>
+                    
+                    <polygon points="140,95 260,95 240,120 160,120" fill="#ffffff" opacity="0.8"/>
+                    <text x="200" y="112" fill="#ec4899" fontSize="10" fontWeight="bold" textAnchor="middle">Interest</text>
+                    
+                    <polygon points="160,125 240,125 220,150 180,150" fill="#ffffff" opacity="0.7"/>
+                    <text x="200" y="142" fill="#ec4899" fontSize="9" fontWeight="bold" textAnchor="middle">Conversion</text>
+                    
+                    {/* SEO/Marketing elements */}
+                    <circle cx="60" cy="80" r="15" fill="#ffffff" opacity="0.9"/>
+                    <text x="60" y="85" fill="#ec4899" fontSize="8" fontWeight="bold" textAnchor="middle">SEO</text>
+                    
+                    <circle cx="340" cy="80" r="15" fill="#ffffff" opacity="0.9"/>
+                    <text x="340" y="85" fill="#ec4899" fontSize="8" fontWeight="bold" textAnchor="middle">PPC</text>
+                    
+                    <circle cx="60" cy="130" r="15" fill="#ffffff" opacity="0.9"/>
+                    <text x="60" y="135" fill="#ec4899" fontSize="7" fontWeight="bold" textAnchor="middle">Social</text>
+                    
+                    <circle cx="340" cy="130" r="15" fill="#ffffff" opacity="0.9"/>
+                    <text x="340" y="135" fill="#ec4899" fontSize="7" fontWeight="bold" textAnchor="middle">Email</text>
+                    
+                    {/* Arrows pointing to funnel */}
+                    <line x1="75" y1="80" x2="110" y2="70" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="325" y1="80" x2="290" y2="70" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="75" y1="130" x2="150" y2="140" stroke="#ffffff" strokeWidth="2"/>
+                    <line x1="325" y1="130" x2="250" y2="140" stroke="#ffffff" strokeWidth="2"/>
+                  </svg>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Digital Marketing & Lead Generation</h3>
+                  <p className="text-gray-600 mb-4">Comprehensive digital marketing strategies to drive growth, generate leads, and optimize your sales cycle.</p>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• SEO & Content Marketing</li>
+                    <li>• Lead Generation & Sales Funnels</li>
+                    <li>• Social Media & PPC Campaigns</li>
+                  </ul>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
