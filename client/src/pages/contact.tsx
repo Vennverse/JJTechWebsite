@@ -119,15 +119,13 @@ export default function Contact() {
           </div>
         </section>
 
-        {/* Call to Action */}
-        <section className="py-16 bg-sky-600">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
-            <p className="text-xl text-sky-100 mb-8">
-              Contact us today to discuss your technology needs and discover how JJ-Tech can help 
-              transform your business.
-            </p>
-
+        {/* Contact Footer */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto text-center px-4">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6">Ready to Get Started?</h3>
+            <div className="space-y-3 text-lg text-gray-700">
+              <div>📧 <strong>Email:</strong> Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
+            </div>
           </div>
         </section>
 
