@@ -129,6 +129,8 @@ Changelog:
 - June 17, 2025. Added Custom App Development & Website Creation service box to home page
 - June 17, 2025. Added Digital Marketing & Lead Generation service box to home page
 - June 17, 2025. Simplified contact page - removed complex form, created clean contact information layout with email links, business hours, and response times
+- June 17, 2025. Updated all page footers to consistent format matching IT Training page style with dual email addresses
+- June 17, 2025. Changed contact page call-to-action from "Contact Us Today" to "Email Us" while maintaining same footer structure
 ```
 
 ## User Preferences
