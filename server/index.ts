@@ -2,6 +2,9 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
+// Set SendGrid API key
+process.env.SENDGRID_API_KEY = "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";
+
 const app = express();
 
 // Security middleware for HTTPS
