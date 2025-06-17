@@ -139,15 +139,7 @@ export default function PMOServices() {
             </div>
           </div>
 
-        {/* Contact Information */}
-        <div className="bg-sky-600 py-12 px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-white mb-6">Ready to Optimize Your PMO Services?</h3>
-            <div className="space-y-3 text-lg text-sky-100">
-              <div>📧 <strong>Email:</strong> Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
-            </div>
-          </div>
-        </div>
+
         </div>
       </main>
     </div>
