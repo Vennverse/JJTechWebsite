@@ -34,6 +34,22 @@ export default function PMOServices() {
               <span className="text-black">•</span>
               <span>We provide Seasoned Project Managers that provide flawless execution for your high visibility complex, global, enterprise -wide implementations and deployments</span>
             </div>
+            <div className="flex items-start space-x-2">
+              <span className="text-black">•</span>
+              <span>We offer TOP NOTCH Change Management services to our esteemed clients.</span>
+            </div>
+            <div className="flex items-start space-x-2">
+              <span className="text-black">•</span>
+              <span>We have highly skilled change managers that can provide world class services.</span>
+            </div>
+            <div className="flex items-start space-x-2">
+              <span className="text-black">•</span>
+              <span>Our ITSM expertise ensures seamless IT service delivery with industry best practices and frameworks.</span>
+            </div>
+            <div className="flex items-start space-x-2">
+              <span className="text-black">•</span>
+              <span>We implement comprehensive ITSM solutions that optimize service operations and enhance customer satisfaction.</span>
+            </div>
           </div>
 
           {/* PMO Services Grid */}
@@ -125,6 +141,26 @@ export default function PMOServices() {
               </div>
               <p className="text-gray-600 text-sm">
                 Measurement and optimization of return on investment to ensure maximum value delivery from all projects and programs.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Change Management</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                World-class change management services delivered by highly skilled professionals to ensure smooth organizational transitions and user adoption.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">ITSM</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Comprehensive IT Service Management solutions implementing industry best practices to optimize service delivery and enhance customer satisfaction.
               </p>
             </div>
           </div>
