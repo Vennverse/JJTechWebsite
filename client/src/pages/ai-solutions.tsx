@@ -41,24 +41,6 @@ export default function AISolutions() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* AI for Consulting Services */}
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center mb-4">
-                <Brain className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">AI for Consulting Services</h3>
-              </div>
-              <p className="text-gray-600 mb-4">
-                Specialized AI solutions designed to enhance consulting practices with 
-                data-driven insights and automated analysis capabilities.
-              </p>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Client data analysis and insights</li>
-                <li>• Automated report generation</li>
-                <li>• Market research automation</li>
-                <li>• Strategic planning support tools</li>
-              </ul>
-            </div>
-
             {/* AI Essentials Package for Small Businesses */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
@@ -74,24 +56,6 @@ export default function AISolutions() {
                 <li>• Basic automation tools</li>
                 <li>• Social media management AI</li>
                 <li>• Simple analytics dashboards</li>
-              </ul>
-            </div>
-
-            {/* AI Business Pro Suite */}
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center mb-4">
-                <Zap className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">AI Business Pro Suite</h3>
-              </div>
-              <p className="text-gray-600 mb-4">
-                Comprehensive AI platform combining multiple advanced tools for 
-                established businesses seeking competitive advantage.
-              </p>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Advanced analytics and forecasting</li>
-                <li>• Multi-channel AI integration</li>
-                <li>• Custom workflow automation</li>
-                <li>• Enterprise-grade security features</li>
               </ul>
             </div>
 
@@ -113,7 +77,41 @@ export default function AISolutions() {
               </ul>
             </div>
 
+            {/* AI Business Pro Suite */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Zap className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Business Pro Suite</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Comprehensive AI platform combining multiple advanced tools for 
+                established businesses seeking competitive advantage.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Advanced analytics and forecasting</li>
+                <li>• Multi-channel AI integration</li>
+                <li>• Custom workflow automation</li>
+                <li>• Enterprise-grade security features</li>
+              </ul>
+            </div>
 
+            {/* AI for Consulting Services */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Brain className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI for Consulting Services</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Specialized AI solutions designed to enhance consulting practices with 
+                data-driven insights and automated analysis capabilities.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Client data analysis and insights</li>
+                <li>• Automated report generation</li>
+                <li>• Market research automation</li>
+                <li>• Strategic planning support tools</li>
+              </ul>
+            </div>
 
             {/* AI Strategy & Consulting */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -132,8 +130,6 @@ export default function AISolutions() {
                 <li>• ROI analysis and planning</li>
               </ul>
             </div>
-
-
 
             {/* AI Custom Development */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
