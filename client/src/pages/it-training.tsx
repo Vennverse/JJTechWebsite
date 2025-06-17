@@ -193,6 +193,90 @@ export default function ITTraining() {
               </div>
             </div>
 
+            {/* Change Management */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-teal-600">
+              <div className="text-teal-600 mb-4">
+                <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clipRule="evenodd"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Change Management</h3>
+              <div className="space-y-3 text-gray-700">
+                <div className="flex items-start space-x-3">
+                  <span className="text-teal-600 font-bold text-lg">•</span>
+                  <div>Organizational Change Strategy</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-teal-600 font-bold text-lg">•</span>
+                  <div>Stakeholder Engagement & Communication</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-teal-600 font-bold text-lg">•</span>
+                  <div>Change Impact Assessment</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-teal-600 font-bold text-lg">•</span>
+                  <div>Training & Adoption Planning</div>
+                </div>
+              </div>
+            </div>
+
+            {/* ITSM (IT Service Management) */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-indigo-600">
+              <div className="text-indigo-600 mb-4">
+                <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">ITSM</h3>
+              <div className="space-y-3 text-gray-700">
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>IT Service Management Foundations</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>Incident & Problem Management</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>Service Request Management</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-indigo-600 font-bold text-lg">•</span>
+                  <div>SLA & Performance Management</div>
+                </div>
+              </div>
+            </div>
+
+            {/* QA (Quality Assurance) */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-pink-600">
+              <div className="text-pink-600 mb-4">
+                <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">QA</h3>
+              <div className="space-y-3 text-gray-700">
+                <div className="flex items-start space-x-3">
+                  <span className="text-pink-600 font-bold text-lg">•</span>
+                  <div>Software Testing Fundamentals</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-pink-600 font-bold text-lg">•</span>
+                  <div>Test Case Design & Execution</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-pink-600 font-bold text-lg">•</span>
+                  <div>Automated Testing Frameworks</div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-pink-600 font-bold text-lg">•</span>
+                  <div>Quality Metrics & Reporting</div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
