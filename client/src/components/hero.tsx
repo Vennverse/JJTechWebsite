@@ -31,14 +31,6 @@ export default function Hero() {
               >
                 Get Started Today
               </Button>
-              <Button
-                onClick={() => scrollToSection("about")}
-                variant="outline"
-                className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors duration-200"
-                size="lg"
-              >
-                Learn More
-              </Button>
             </div>
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center">

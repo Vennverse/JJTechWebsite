@@ -18,6 +18,7 @@ export default function JJTechNavigation() {
             <Link href="/ai-solutions" className="hover:text-gray-300 transition-colors">AI Solutions</Link>
             <Link href="/pmo-services" className="hover:text-gray-300 transition-colors">PMO and ITSM Services</Link>
             <Link href="/it-training" className="hover:text-gray-300 transition-colors">IT Training</Link>
+            <Link href="/staffing-recruiting" className="hover:text-gray-300 transition-colors">Staffing and Recruiting</Link>
             <Link href="/about-us" className="hover:text-gray-300 transition-colors">About Us</Link>
             <Link href="/contact" className="hover:text-gray-300 transition-colors">Contact Us</Link>
           </nav>
