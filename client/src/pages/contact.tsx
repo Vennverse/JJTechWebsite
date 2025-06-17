@@ -120,14 +120,14 @@ export default function Contact() {
         </section>
 
         {/* Contact Information */}
-        <div className="bg-gray-50 py-12 px-4">
+        <div className="bg-sky-600 py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Ready to Get Started?</h3>
-            <div className="space-y-3 text-lg text-gray-700">
+            <h3 className="text-2xl font-bold text-white mb-6">Ready to Get Started?</h3>
+            <div className="space-y-3 text-lg text-sky-100">
               <div>📧 <strong>Email:</strong> Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
             </div>
             <div className="mt-8">
-              <a href="mailto:Info@jj-tech.co" className="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-8 rounded-lg transition-colors inline-block">
+              <a href="mailto:Info@jj-tech.co" className="bg-white text-sky-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition-colors inline-block">
                 Email Us
               </a>
             </div>
