@@ -226,32 +226,12 @@ export default function AISolutions() {
 
 
 
-      {/* CTA Section */}
-      <section className="py-16 bg-sky-600 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Business with AI?</h2>
-          <p className="text-xl mb-8">
-            Let's discuss how our AI solutions can drive innovation and growth for your organization.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center">
-              Schedule Consultation
-            </Link>
-          </div>
-        </div>
-      </section>
-
         {/* Contact Information */}
-        <div className="bg-gray-50 py-12 px-4">
+        <div className="bg-sky-600 py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Ready to Transform Your Business with AI?</h3>
-            <div className="space-y-3 text-lg text-gray-700">
+            <h3 className="text-2xl font-bold text-white mb-6">Ready to Transform Your Business with AI?</h3>
+            <div className="space-y-3 text-lg text-sky-100">
               <div>📧 <strong>Email:</strong> Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
-            </div>
-            <div className="mt-8">
-              <Link href="/contact" className="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-8 rounded-lg transition-colors inline-block">
-                Contact Us Today
-              </Link>
             </div>
           </div>
         </div>
