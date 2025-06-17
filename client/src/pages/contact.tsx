@@ -126,11 +126,6 @@ export default function Contact() {
             <div className="space-y-3 text-lg text-sky-100">
               <div>📧 <strong>Email:</strong> Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
             </div>
-            <div className="mt-8">
-              <a href="mailto:Info@jj-tech.co" className="bg-white text-sky-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition-colors inline-block">
-                Email Us
-              </a>
-            </div>
           </div>
         </div>
 
