@@ -219,9 +219,6 @@ export default function AISolutions() {
             <Link href="/contact" className="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-center">
               Schedule Consultation
             </Link>
-            <Link href="/contact" className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-sky-600 transition-colors text-center">
-              Learn More
-            </Link>
           </div>
         </div>
       </section>
