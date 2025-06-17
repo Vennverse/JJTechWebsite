@@ -76,9 +76,7 @@ export default function Services() {
                       <li key={featureIndex}>• {feature}</li>
                     ))}
                   </ul>
-                  <span className="text-brand-600 dark:text-brand-400 text-sm font-medium hover:text-brand-700 dark:hover:text-brand-300">
-                    Learn More →
-                  </span>
+
                 </div>
               </Link>
             );

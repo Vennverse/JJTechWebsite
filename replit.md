@@ -119,6 +119,10 @@ Changelog:
 - June 16, 2025. Removed all JJ-Tech phone numbers from website while preserving contact form functionality
 - June 16, 2025. Finalized AI Solutions with 7 tiered services: AI Essentials (small business), AI Growth Package (mid-tier), AI Business Pro Suite, AI for Consulting Services, AI Strategy & Consulting, AI Custom Development, Marketing/Lead Generation/Sales Cycle
 - June 16, 2025. Updated navigation order: IT Services → AI Solutions → PMO and ITSM Services → IT Training → About Us → Contact Us
+- June 17, 2025. Added Staffing and Recruiting page with comprehensive recruiting services for IT professionals, AI specialists, project managers, and executives
+- June 17, 2025. Updated AI Solutions page: removed AI Strategy & Consulting, added AI Chatbots and AI Brains services
+- June 17, 2025. Removed all "Learn More" buttons from website to simplify call-to-action structure
+- June 17, 2025. Updated navigation menu to include Staffing and Recruiting link
 ```
 
 ## User Preferences
