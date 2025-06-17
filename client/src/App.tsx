@@ -10,6 +10,7 @@ import ITServices from "@/pages/it-services";
 import ITTraining from "@/pages/it-training";
 import PMOServices from "@/pages/pmo-services";
 import AISolutions from "@/pages/ai-solutions";
+import StaffingRecruiting from "@/pages/staffing-recruiting";
 import AboutUs from "@/pages/about-us";
 import Contact from "@/pages/contact";
 
@@ -25,6 +26,7 @@ function Router() {
       <Route path="/it-training" component={ITTraining} />
       <Route path="/pmo-services" component={PMOServices} />
       <Route path="/ai-solutions" component={AISolutions} />
+      <Route path="/staffing-recruiting" component={StaffingRecruiting} />
       <Route path="/about-us" component={AboutUs} />
       <Route path="/contact" component={Contact} />
 

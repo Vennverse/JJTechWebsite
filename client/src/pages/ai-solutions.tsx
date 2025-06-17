@@ -113,21 +113,39 @@ export default function AISolutions() {
               </ul>
             </div>
 
-            {/* AI Strategy & Consulting */}
+            {/* Chatbots */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
-                <Target className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">AI Strategy & Consulting</h3>
+                <Bot className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Chatbots</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Develop comprehensive AI strategies aligned with your business objectives 
-                and technical capabilities.
+                Intelligent conversational AI solutions that enhance customer service, 
+                automate support, and provide 24/7 assistance across multiple channels.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
-                <li>• AI readiness assessment</li>
-                <li>• Strategic roadmap development</li>
-                <li>• Technology selection guidance</li>
-                <li>• ROI analysis and planning</li>
+                <li>• Customer service automation</li>
+                <li>• Multi-platform integration</li>
+                <li>• Natural language processing</li>
+                <li>• Personalized interactions</li>
+              </ul>
+            </div>
+
+            {/* AI Brains */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Brain className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Brains</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Advanced neural network systems that power intelligent decision-making, 
+                pattern recognition, and complex problem-solving capabilities.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Deep learning models</li>
+                <li>• Cognitive computing solutions</li>
+                <li>• Predictive analytics engines</li>
+                <li>• Intelligent automation systems</li>
               </ul>
             </div>
 
