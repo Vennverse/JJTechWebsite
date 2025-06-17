@@ -346,16 +346,11 @@ export default function ITTraining() {
         </div>
 
         {/* Contact Information */}
-        <div className="bg-gray-50 py-12 px-4">
+        <div className="bg-sky-600 py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Ready to Start Your Training Journey?</h3>
-            <div className="space-y-3 text-lg text-gray-700">
+            <h3 className="text-2xl font-bold text-white mb-6">Ready to Start Your Training Journey?</h3>
+            <div className="space-y-3 text-lg text-sky-100">
               <div>📧 <strong>Email:</strong> Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
-            </div>
-            <div className="mt-8">
-              <Link href="/contact" className="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-8 rounded-lg transition-colors inline-block">
-                Contact Us Today
-              </Link>
             </div>
           </div>
         </div>
