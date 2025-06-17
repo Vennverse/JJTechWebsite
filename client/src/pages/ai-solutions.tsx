@@ -166,6 +166,42 @@ export default function AISolutions() {
                 <li>• Customer journey optimization</li>
               </ul>
             </div>
+
+            {/* AI Solutions for Higher Ed */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Brain className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Solutions for Higher Ed</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Specialized AI tools designed for universities and colleges to enhance 
+                academic operations, research capabilities, and student outcomes.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Student performance analytics</li>
+                <li>• Research data analysis tools</li>
+                <li>• Administrative automation</li>
+                <li>• Campus resource optimization</li>
+              </ul>
+            </div>
+
+            {/* AI Solutions for Schools */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Shield className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Solutions for Schools</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Educational AI solutions tailored for K-12 schools to improve learning 
+                outcomes, streamline operations, and support educators.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Personalized learning platforms</li>
+                <li>• Teacher productivity tools</li>
+                <li>• Student progress tracking</li>
+                <li>• School safety and monitoring</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
