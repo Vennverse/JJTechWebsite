@@ -98,7 +98,8 @@ export default function Contact() {
               <div className="space-y-4">
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
-                  <p className="text-gray-600">contact@jj-tech.co</p>
+                  <p className="text-gray-600">Info@jj-tech.co</p>
+                  <p className="text-gray-600 text-sm">Alternative: jj.tech.us.corp@gmail.com</p>
                 </div>
 
                 <div>
