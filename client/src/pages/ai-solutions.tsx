@@ -77,21 +77,39 @@ export default function AISolutions() {
               </ul>
             </div>
 
-            {/* Natural Language Processing */}
+            {/* AI Business Pro Suite */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <Zap className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Natural Language Processing</h3>
+                <h3 className="text-xl font-semibold text-gray-800">AI Business Pro Suite</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Extract insights from text data and enable intelligent communication 
-                between systems and users.
+                Comprehensive AI platform combining multiple advanced tools for 
+                established businesses seeking competitive advantage.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Sentiment analysis</li>
-                <li>• Chatbots and virtual assistants</li>
-                <li>• Content generation</li>
-                <li>• Language translation services</li>
+                <li>• Advanced analytics and forecasting</li>
+                <li>• Multi-channel AI integration</li>
+                <li>• Custom workflow automation</li>
+                <li>• Enterprise-grade security features</li>
+              </ul>
+            </div>
+
+            {/* AI Growth Package */}
+            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center mb-4">
+                <Target className="h-8 w-8 text-sky-600 mr-3" />
+                <h3 className="text-xl font-semibold text-gray-800">AI Growth Package (Mid Tier – for Growing Businesses)</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Scaled AI solutions designed for growing businesses ready to expand 
+                their operations and optimize performance.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Scalable automation solutions</li>
+                <li>• Performance optimization tools</li>
+                <li>• Growth analytics and insights</li>
+                <li>• Integration with existing systems</li>
               </ul>
             </div>
 
