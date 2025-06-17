@@ -245,7 +245,7 @@ export default function AISolutions() {
       <footer className="bg-gray-800 text-white py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © 2024 JJ-Tech. All rights reserved. | Email: contact@jj-tech.co
+            © 2024 JJ-Tech. All rights reserved. | Email: Info@jj-tech.co or jj.tech.us.corp@gmail.com
           </p>
         </div>
       </footer>

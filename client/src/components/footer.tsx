@@ -119,7 +119,7 @@ export default function Footer() {
                 San Francisco, CA 94107
               </li>
               <li>+1 (555) 123-4567</li>
-              <li>info@jj-tech.co</li>
+              <li>Info@jj-tech.co</li>
             </ul>
           </div>
         </div>
