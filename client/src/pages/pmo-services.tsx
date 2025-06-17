@@ -25,32 +25,6 @@ export default function PMOServices() {
 
         {/* Content Section */}
         <div className="max-w-6xl mx-auto py-12 px-4">
-          <div className="space-y-6 text-gray-700 mb-8">
-            <div className="flex items-start space-x-2">
-              <span className="text-black">•</span>
-              <span>We offer TOP NOTCH IT PMO services to our esteemed clients.</span>
-            </div>
-            <div className="flex items-start space-x-2">
-              <span className="text-black">•</span>
-              <span>We provide Seasoned Project Managers that provide flawless execution for your high visibility complex, global, enterprise -wide implementations and deployments</span>
-            </div>
-            <div className="flex items-start space-x-2">
-              <span className="text-black">•</span>
-              <span>We offer TOP NOTCH Change Management services to our esteemed clients.</span>
-            </div>
-            <div className="flex items-start space-x-2">
-              <span className="text-black">•</span>
-              <span>We have highly skilled change managers that can provide world class services.</span>
-            </div>
-            <div className="flex items-start space-x-2">
-              <span className="text-black">•</span>
-              <span>Our ITSM expertise ensures seamless IT service delivery with industry best practices and frameworks.</span>
-            </div>
-            <div className="flex items-start space-x-2">
-              <span className="text-black">•</span>
-              <span>We implement comprehensive ITSM solutions that optimize service operations and enhance customer satisfaction.</span>
-            </div>
-          </div>
 
           {/* PMO Services Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,6 +1,5 @@
 import { Link } from "wouter";
 import JJTechNavigation from "../components/jjtech-navigation";
-import Footer from "../components/footer";
 
 export default function StaffingRecruiting() {
   return (
@@ -30,6 +29,36 @@ export default function StaffingRecruiting() {
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               We specialize in connecting organizations with exceptional technology professionals across all levels and specializations.
             </p>
+          </div>
+
+          {/* Key Value Propositions */}
+          <div className="bg-gradient-to-r from-sky-50 to-blue-50 rounded-lg p-8 mb-12">
+            <div className="space-y-4 text-gray-700">
+              <div className="flex items-start space-x-3">
+                <span className="text-sky-600 font-bold text-lg">•</span>
+                <span>We offer TOP NOTCH IT PMO services to our esteemed clients.</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-sky-600 font-bold text-lg">•</span>
+                <span>We provide Seasoned Project Managers that provide flawless execution for your high visibility complex, global, enterprise-wide implementations and deployments</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-sky-600 font-bold text-lg">•</span>
+                <span>We offer TOP NOTCH Change Management services to our esteemed clients.</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-sky-600 font-bold text-lg">•</span>
+                <span>We have highly skilled change managers that can provide world class services.</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-sky-600 font-bold text-lg">•</span>
+                <span>Our ITSM expertise ensures seamless IT service delivery with industry best practices and frameworks.</span>
+              </div>
+              <div className="flex items-start space-x-3">
+                <span className="text-sky-600 font-bold text-lg">•</span>
+                <span>We implement comprehensive ITSM solutions that optimize service operations and enhance customer satisfaction.</span>
+              </div>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -278,7 +307,6 @@ export default function StaffingRecruiting() {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 }
