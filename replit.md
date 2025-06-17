@@ -125,6 +125,10 @@ Changelog:
 - June 17, 2025. Updated navigation menu to include Staffing and Recruiting link
 - June 17, 2025. Added three new service boxes to home screen: QA & Testing Services, AI Solutions, and Training & Coaching
 - June 17, 2025. Added AI Training category to IT Training page with 6 specialized AI courses including ML fundamentals, neural networks, and AI ethics
+- June 17, 2025. Updated all email addresses throughout website to show both Info@jj-tech.co and JJ.tech.us.corp@gmail.com
+- June 17, 2025. Added Custom App Development & Website Creation service box to home page
+- June 17, 2025. Added Digital Marketing & Lead Generation service box to home page
+- June 17, 2025. Simplified contact page - removed complex form, created clean contact information layout with email links, business hours, and response times
 ```
 
 ## User Preferences
