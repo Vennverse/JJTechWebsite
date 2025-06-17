@@ -153,21 +153,21 @@ export default function AISolutions() {
               </ul>
             </div>
 
-            {/* Marketing and Lead Generation */}
+            {/* Marketing, Lead Generation and Sales Cycle */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <Zap className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Marketing & Lead Generation</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Marketing, Lead Generation and Sales Cycle</h3>
               </div>
               <p className="text-gray-600 mb-4">
                 AI-powered marketing solutions to optimize campaigns, identify prospects, 
-                and accelerate your sales pipeline.
+                and accelerate your complete sales pipeline from lead to close.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
                 <li>• Predictive lead scoring</li>
                 <li>• Automated campaign optimization</li>
-                <li>• Customer segmentation analysis</li>
-                <li>• Marketing attribution modeling</li>
+                <li>• Sales cycle acceleration tools</li>
+                <li>• Customer journey optimization</li>
               </ul>
             </div>
           </div>
