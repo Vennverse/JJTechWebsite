@@ -187,9 +187,7 @@ export default function ServicesPage() {
   const service = servicesData[serviceId as keyof typeof servicesData] || servicesData['custom-development'];
   const IconComponent = service.icon;
 
-  const scrollToContact = () => {
-    window.location.href = '/#contact';
-  };
+
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -219,13 +217,14 @@ export default function ServicesPage() {
                 <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
                   {service.description}
                 </p>
-                <Button
-                  onClick={scrollToContact}
-                  className="bg-brand-600 text-white hover:bg-brand-700"
-                  size="lg"
-                >
-                  Get Started Today
-                </Button>
+                <Link href="/contact">
+                  <Button
+                    className="bg-brand-600 text-white hover:bg-brand-700"
+                    size="lg"
+                  >
+                    Get Started Today
+                  </Button>
+                </Link>
               </div>
               <div className="relative">
                 <img
@@ -319,14 +318,15 @@ export default function ServicesPage() {
             <p className="text-xl text-brand-100 mb-8 max-w-2xl mx-auto">
               Let's discuss how our {service.title.toLowerCase()} services can help transform your business.
             </p>
-            <Button
-              onClick={scrollToContact}
-              variant="secondary"
-              size="lg"
-              className="bg-white text-brand-600 hover:bg-gray-50"
-            >
-              Contact Us Today
-            </Button>
+            <Link href="/contact">
+              <Button
+                variant="secondary"
+                size="lg"
+                className="bg-white text-brand-600 hover:bg-gray-50"
+              >
+                Contact Us Today
+              </Button>
+            </Link>
           </div>
         </section>
 
