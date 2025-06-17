@@ -31,35 +31,7 @@ export default function StaffingRecruiting() {
             </p>
           </div>
 
-          {/* Key Value Propositions */}
-          <div className="bg-gradient-to-r from-sky-50 to-blue-50 rounded-lg p-8 mb-12">
-            <div className="space-y-4 text-gray-700">
-              <div className="flex items-start space-x-3">
-                <span className="text-sky-600 font-bold text-lg">•</span>
-                <span>We offer TOP NOTCH IT PMO services to our esteemed clients.</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="text-sky-600 font-bold text-lg">•</span>
-                <span>We provide Seasoned Project Managers that provide flawless execution for your high visibility complex, global, enterprise-wide implementations and deployments</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="text-sky-600 font-bold text-lg">•</span>
-                <span>We offer TOP NOTCH Change Management services to our esteemed clients.</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="text-sky-600 font-bold text-lg">•</span>
-                <span>We have highly skilled change managers that can provide world class services.</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="text-sky-600 font-bold text-lg">•</span>
-                <span>Our ITSM expertise ensures seamless IT service delivery with industry best practices and frameworks.</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="text-sky-600 font-bold text-lg">•</span>
-                <span>We implement comprehensive ITSM solutions that optimize service operations and enhance customer satisfaction.</span>
-              </div>
-            </div>
-          </div>
+
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
@@ -119,6 +91,26 @@ export default function StaffingRecruiting() {
               </div>
               <p className="text-gray-600 text-sm">
                 Flexible staffing solutions including contract-to-hire, direct placement, and project-based engagements.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">Change Managers</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Highly skilled change management professionals who deliver world-class services for organizational transformations and user adoption initiatives.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border border-sky-200">
+              <div className="flex items-center mb-3">
+                <span className="text-green-600 text-xl mr-2">✅</span>
+                <h3 className="text-lg font-semibold text-gray-800">ITSM Expertise</h3>
+              </div>
+              <p className="text-gray-600 text-sm">
+                Comprehensive IT Service Management specialists who ensure seamless service delivery with industry best practices and frameworks.
               </p>
             </div>
           </div>

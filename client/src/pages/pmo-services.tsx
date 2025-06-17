@@ -9,7 +9,7 @@ export default function PMOServices() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-4xl mx-auto text-center px-4">
             <h1 className="text-4xl font-normal text-gray-800 mb-4">
-              JJ-TECH - PMO Services
+              JJ-TECH - PMO and ITSM Services
             </h1>
           </div>
         </section>
@@ -18,7 +18,7 @@ export default function PMOServices() {
         <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <h2 className="text-white text-lg font-medium">
-              PMO Services - We partner and collaborate with you in setting up your PMO. We are your trusted advisors.
+              PMO and ITSM Services - We partner and collaborate with you in setting up your PMO. We are your trusted advisors.
             </h2>
           </div>
         </div>
