@@ -31,18 +31,8 @@ export default function Contact() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Email Us</h3>
                 <div className="space-y-3">
-                  <button 
-                    onClick={() => window.location.href = 'mailto:Info@jj-tech.co'}
-                    className="text-lg font-semibold text-sky-600 hover:text-sky-800 transition-colors block cursor-pointer bg-transparent border-none p-0"
-                  >
-                    Info@jj-tech.co
-                  </button>
-                  <button 
-                    onClick={() => window.location.href = 'mailto:JJ.tech.us.corp@gmail.com'}
-                    className="text-lg font-semibold text-sky-600 hover:text-sky-800 transition-colors block cursor-pointer bg-transparent border-none p-0"
-                  >
-                    JJ.tech.us.corp@gmail.com
-                  </button>
+                  <p className="text-lg font-semibold text-sky-600">Info@jj-tech.co</p>
+                  <p className="text-lg font-semibold text-sky-600">JJ.tech.us.corp@gmail.com</p>
                 </div>
                 <p className="text-gray-600 mt-4">
                   Send us an email for general inquiries, project discussions, or partnership opportunities.
@@ -137,20 +127,7 @@ export default function Contact() {
               Contact us today to discuss your technology needs and discover how JJ-Tech can help 
               transform your business.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                onClick={() => window.location.href = 'mailto:Info@jj-tech.co'}
-                className="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-              >
-                Email Us Now
-              </button>
-              <button 
-                onClick={() => window.location.href = 'mailto:JJ.tech.us.corp@gmail.com'}
-                className="bg-sky-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-sky-800 transition-colors border-2 border-white"
-              >
-                Alternative Email
-              </button>
-            </div>
+
           </div>
         </section>
 
