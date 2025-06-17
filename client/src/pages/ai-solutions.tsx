@@ -133,23 +133,7 @@ export default function AISolutions() {
               </ul>
             </div>
 
-            {/* Data Engineering */}
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center mb-4">
-                <Database className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">AI Data Engineering</h3>
-              </div>
-              <p className="text-gray-600 mb-4">
-                Build robust data pipelines and infrastructure to support your AI initiatives 
-                and ensure data quality.
-              </p>
-              <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Data pipeline development</li>
-                <li>• Data lake and warehouse setup</li>
-                <li>• Data quality and governance</li>
-                <li>• Model deployment infrastructure</li>
-              </ul>
-            </div>
+
 
             {/* AI Custom Development */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
