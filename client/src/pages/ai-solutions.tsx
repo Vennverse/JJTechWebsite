@@ -41,39 +41,39 @@ export default function AISolutions() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Machine Learning */}
+            {/* AI for Consulting Services */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <Brain className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Machine Learning</h3>
+                <h3 className="text-xl font-semibold text-gray-800">AI for Consulting Services</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Custom ML models for predictive analytics, classification, and pattern recognition 
-                to enhance your business intelligence.
+                Specialized AI solutions designed to enhance consulting practices with 
+                data-driven insights and automated analysis capabilities.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Predictive modeling and forecasting</li>
-                <li>• Customer behavior analysis</li>
-                <li>• Fraud detection systems</li>
-                <li>• Recommendation engines</li>
+                <li>• Client data analysis and insights</li>
+                <li>• Automated report generation</li>
+                <li>• Market research automation</li>
+                <li>• Strategic planning support tools</li>
               </ul>
             </div>
 
-            {/* Process Automation */}
+            {/* AI Essentials Package for Small Businesses */}
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <Bot className="h-8 w-8 text-sky-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Intelligent Automation</h3>
+                <h3 className="text-xl font-semibold text-gray-800">AI Essentials Package for Small Businesses</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Automate complex business processes with AI-powered solutions that adapt 
-                and learn from your operations.
+                Affordable, ready-to-deploy AI solutions tailored for small businesses 
+                to compete effectively in the digital marketplace.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Robotic Process Automation (RPA)</li>
-                <li>• Document processing automation</li>
-                <li>• Workflow optimization</li>
-                <li>• Smart decision engines</li>
+                <li>• Customer service chatbots</li>
+                <li>• Basic automation tools</li>
+                <li>• Social media management AI</li>
+                <li>• Simple analytics dashboards</li>
               </ul>
             </div>
 
