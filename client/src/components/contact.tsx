@@ -91,6 +91,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <p className="text-gray-600">Info@jj-tech.co</p>
+                    <p className="text-gray-600">JJ.tech.us.corp@gmail.com</p>
                   </div>
                 </div>
               </div>

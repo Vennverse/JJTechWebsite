@@ -141,7 +141,7 @@ export default function PMOServices() {
 
           {/* Contact Section */}
           <div className="text-center mt-12 p-6 bg-sky-600 rounded-lg">
-            <div className="text-white font-bold">Email us at Info@jj-tech.co or jj.tech.us.corp@gmail.com</div>
+            <div className="text-white font-bold">Email us at Info@jj-tech.co or JJ.tech.us.corp@gmail.com</div>
           </div>
         </div>
       </main>

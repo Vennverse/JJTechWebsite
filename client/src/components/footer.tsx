@@ -120,6 +120,7 @@ export default function Footer() {
               </li>
               <li>+1 (555) 123-4567</li>
               <li>Info@jj-tech.co</li>
+              <li>JJ.tech.us.corp@gmail.com</li>
             </ul>
           </div>
         </div>
