@@ -26,11 +26,83 @@ export default function AboutUs() {
         <div className="max-w-6xl mx-auto py-8 px-4">
           <div className="text-gray-700 space-y-4">
             <p>
-              We are a women owned, small business. We offer a number of services ranging from PMO Services, IT Training, IT services, Digital Marketing including Website Design and Development, Custom Application, Mobile Application to Digital Marketing, including SEO.
+              We are a women owned, small business specializing in comprehensive technology solutions and consulting services.
             </p>
             <p>
-              JJ-Tech Franchising offers Franchise Brokering and Consulting
+              We offer chatbots and brains for schools and colleges. We provide AI solutions and services, PMO and ITSM services, IT Assessment and strategy. We provide large scale project implementations, IT Operations and Support. We have a well established team for staffing and recruitment.
             </p>
+            
+            <div className="mt-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Our Core Services Include:</h3>
+              
+              <div className="grid md:grid-cols-2 gap-6 mt-4">
+                <div>
+                  <h4 className="font-medium text-gray-800 mb-2">IT Services & Solutions</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Cloud Solutions and Migration</li>
+                    <li>• Cybersecurity Services</li>
+                    <li>• Infrastructure Management</li>
+                    <li>• Software Development</li>
+                    <li>• IT Support and Maintenance</li>
+                    <li>• Technology Strategy Consulting</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="font-medium text-gray-800 mb-2">AI Solutions</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• AI Essentials for Small Business</li>
+                    <li>• AI Growth Package</li>
+                    <li>• AI Business Pro Suite</li>
+                    <li>• AI Custom Development</li>
+                    <li>• AI Chatbots and AI Brains</li>
+                    <li>• Marketing/Lead Generation Automation</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="font-medium text-gray-800 mb-2">PMO & ITSM Services</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Project Management Office</li>
+                    <li>• IT Service Management</li>
+                    <li>• Process Optimization</li>
+                    <li>• Portfolio Management</li>
+                    <li>• Change Management</li>
+                    <li>• ITIL Framework Implementation</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="font-medium text-gray-800 mb-2">Training & Development</h4>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Cloud Computing Training</li>
+                    <li>• Cybersecurity Certification</li>
+                    <li>• Software Development</li>
+                    <li>• Data Analytics</li>
+                    <li>• Project Management</li>
+                    <li>• AI and Machine Learning</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="mt-6">
+                <h4 className="font-medium text-gray-800 mb-2">Additional Services</h4>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Staffing and Recruitment</li>
+                    <li>• Custom App Development</li>
+                    <li>• Website Creation</li>
+                    <li>• Digital Marketing</li>
+                  </ul>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• QA & Testing Services</li>
+                    <li>• IT Operations Support</li>
+                    <li>• Large Scale Project Implementation</li>
+                    <li>• SEO and Lead Generation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
