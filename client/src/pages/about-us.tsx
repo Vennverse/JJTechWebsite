@@ -29,6 +29,9 @@ export default function AboutUs() {
               We are a women owned, small business specializing in comprehensive technology solutions and consulting services.
             </p>
             <p>
+              Our Mission is to understand the clients needs and solve their problems while providing unparalleled services to our clients.
+            </p>
+            <p>
               We offer chatbots and brains for schools and colleges. We provide AI solutions and services, PMO and ITSM services, IT Assessment and strategy. We provide large scale project implementations, IT Operations and Support. We have a well established team for staffing and recruitment.
             </p>
             
@@ -106,6 +109,23 @@ export default function AboutUs() {
           </div>
         </div>
 
+        {/* Our Mission Section */}
+        <div className="bg-sky-600 py-6">
+          <div className="max-w-6xl mx-auto px-4 text-center">
+            <h2 className="text-white text-lg font-medium">
+              Our Mission
+            </h2>
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto py-8 px-4">
+          <div className="text-gray-700">
+            <p>
+              Our Mission is to understand the clients needs and solve their problems while providing unparalleled services to our clients.
+            </p>
+          </div>
+        </div>
+
         {/* Our Vision Section */}
         <div className="bg-sky-600 py-6">
           <div className="max-w-6xl mx-auto px-4 text-center">
@@ -119,23 +139,6 @@ export default function AboutUs() {
           <div className="text-gray-700">
             <p>
               Our Vision is to Enable, Equip and Empower (E3) Companies and people to achieve their strategic goals by streamlining processes and by increasing operational effectiveness
-            </p>
-          </div>
-        </div>
-
-        {/* Our Mission Section */}
-        <div className="bg-sky-600 py-6">
-          <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-white text-lg font-medium">
-              Our Mission
-            </h2>
-          </div>
-        </div>
-
-        <div className="max-w-6xl mx-auto py-8 px-4">
-          <div className="text-gray-700">
-            <p>
-              Our Mission is to Provide unparalleled services to our clients
             </p>
           </div>
         </div>
